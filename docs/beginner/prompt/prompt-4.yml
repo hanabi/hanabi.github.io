@@ -15,17 +15,25 @@ players:
   - cards:
       - type: x
       - type: 3
-        middleNote: (B)
+        above: Blue 3
+        middleNote: r3?
+        below: Prompt
       - type: 3
-        middleNote: (G)
+        above: Green 3
+        middleNote: r3?
+        below: Prompt
       - type: 3
-        middleNote: (R)
+        above: Red 3
+        middleNote: r3!
+        below: Prompt
       - type: x
+  - space
   - cards:
       - type: x
       - type: x
       - type: r
         clue: r
-        middleNote: (4)
+        middleNote: r4
+        below: Play
       - type: x
       - type: x

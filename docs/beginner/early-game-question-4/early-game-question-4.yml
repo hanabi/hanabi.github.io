@@ -4,6 +4,8 @@ stacks:
   - g: 3
   - b: 1
   - p: 0
+bigText:
+  text: Early Game
 players:
   - clueGiver: true
     cards:

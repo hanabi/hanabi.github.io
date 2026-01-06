@@ -16,6 +16,20 @@ players:
       - type: x
       - type: 4
         clue: 4
+        middleNote: gb4
+        below: Play
       - type: x
       - type: 3
+        above: Blue 3
+        middleNote: gb3
+        below: Prompt
+      - type: x
+  - text: "After blue 3 plays:"
+  - offset: -1
+    cards:
+      - type: x
+      - type: x
+      - type: 4
+        middleNote: b4
+      - type: x
       - type: x

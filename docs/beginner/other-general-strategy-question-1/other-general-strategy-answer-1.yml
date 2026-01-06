@@ -1,38 +1,44 @@
 stacks:
-  - r: 1
-  - y: 2
-  - g: 2
-  - b: 0
+  - r: 0
+  - y: 1
+  - g: 0
+  - b: 1
   - p: 3
-bigText:
-  text: Early Game
+discarded:
+  - g3
+  - g4
+  - p4
 players:
   - clueGiver: true
     cards:
+      - type: y2
+        middleNote: y2
+        below:
+          text: Play
+          color: cyan
       - type: x
       - type: x
       - type: x
       - type: x
-      - type: 2
   - cards:
-      - type: b4
+      - type: p2
+        border: false
+      - type: b1
+        border: false
+      - type: r4
+        border: false
+      - type: y1
         border: false
       - type: p3
-        border: false
-      - type: r1
-        border: false
-      - type: g2
-        border: false
-      - type: b4
         border: false
   - cards:
       - type: r3
         border: false
-      - type: g3
+      - type: r3
         border: false
-      - type: y2
+      - type: y1
         border: false
-      - type: p1
+      - type: y5
         border: false
-      - type: r5
+      - type: b5
         border: false

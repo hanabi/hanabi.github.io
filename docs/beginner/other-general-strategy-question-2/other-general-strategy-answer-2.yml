@@ -29,7 +29,9 @@ players:
       - type: r3
         border: false
       - type: g3
-        border: false
+        clue: g
+        middleNote: g3
+        below: Play
       - type: y2
         border: false
       - type: p1

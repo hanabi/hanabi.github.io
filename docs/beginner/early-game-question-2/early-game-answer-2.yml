@@ -1,9 +1,9 @@
 stacks:
   - r: 1
   - y: 2
-  - g: 2
-  - b: 0
-  - p: 3
+  - g: 0
+  - b: 1
+  - p: 0
 bigText:
   text: Early Game
 players:
@@ -13,26 +13,27 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: 2
+      - type: 5
   - cards:
-      - type: b4
-        border: false
-      - type: p3
-        border: false
       - type: r1
         border: false
       - type: g2
-        border: false
-      - type: b4
-        border: false
-  - cards:
-      - type: r3
-        border: false
-      - type: g3
-        border: false
+        clue: g
+        middleNote: g2
+        below: Play
+      - type: p1
+      - type: g1
+        clue: g
+        retouched: true
+        middleNote: g1
       - type: y2
         border: false
-      - type: p1
+  - cards:
+      - type: b3
         border: false
-      - type: r5
+      - type: p4
         border: false
+      - type: p4
+        border: false
+      - type: p5
+      - type: g5
