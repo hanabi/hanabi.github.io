@@ -37,12 +37,12 @@
 - **When multiple cards are possible, use commas with spaces:**
   - "r2, g2, b2" (not "rgb2")
   - "b2, b3" (not "b23")
-  - In YAML `middleNote` fields, use the same format
+  - In YAML `middleNote` fields, use the same format.
 
 - **Special card note abbreviations:**
   - `cm` for _Chop Moved_ cards
   - `kt` for known trash cards
-  - When using these in YAML, also set the corresponding attribute (`cm: true` or `trash: true`)
+  - When using these in YAML, also set the corresponding attribute (`cm: true` or `trash: true`).
 
 - **For conditional notes, use descriptive phrases:**
   - "r2 or r3 if red 2 f" (f = finesse)
