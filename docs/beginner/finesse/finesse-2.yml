@@ -17,15 +17,17 @@ players:
       - type: x
   - cards:
       - type: r
-        middleNote: (1)
+        middleNote: r1
       - type: r
       - type: x
         above: Blue 1
+        below: Finesse
       - type: x
   - cards:
       - type: b
         clue: b
-        middleNote: (2)
+        middleNote: b2
+        below: Play
       - type: x
       - type: x
       - type: x

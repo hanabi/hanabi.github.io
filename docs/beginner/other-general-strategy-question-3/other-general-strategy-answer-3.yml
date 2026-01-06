@@ -1,11 +1,9 @@
 stacks:
-  - r: 1
-  - y: 2
-  - g: 2
+  - r: 3
+  - y: 1
+  - g: 3
   - b: 0
   - p: 3
-bigText:
-  text: Early Game
 players:
   - clueGiver: true
     cards:
@@ -13,26 +11,26 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: 2
+      - type: x
   - cards:
-      - type: b4
+      - type: y3
         border: false
-      - type: p3
-        border: false
-      - type: r1
+      - type: r2
         border: false
       - type: g2
         border: false
+      - type: r1
+        border: false
+      - type: b5
+        clue: 5
+        below: Save
+  - cards:
       - type: b4
         border: false
-  - cards:
+      - type: y2
+      - type: p4
+        border: false
       - type: r3
         border: false
-      - type: g3
-        border: false
-      - type: y2
-        border: false
       - type: p1
-        border: false
-      - type: r5
         border: false

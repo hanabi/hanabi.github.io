@@ -12,6 +12,7 @@ players:
   - clueGiver: true
     cards:
       - type: y2
+        middleNote: y2
       - type: x
       - type: x
       - type: x

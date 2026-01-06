@@ -1,9 +1,9 @@
 stacks:
-  - r: 1
-  - y: 2
-  - g: 2
-  - b: 0
-  - p: 3
+  - r: 2
+  - y: 1
+  - g: 3
+  - b: 1
+  - p: 0
 bigText:
   text: Early Game
 players:
@@ -13,26 +13,31 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: 2
+        below: Discard
   - cards:
-      - type: b4
-        border: false
-      - type: p3
+      - type: r4
         border: false
       - type: r1
         border: false
-      - type: g2
+      - type: p3
+        border: false
+      - type: g1
+        border: false
+  - cards:
+      - type: p2
         border: false
       - type: b4
         border: false
+      - type: b4
+        border: false
+      - type: r2
+        border: false
   - cards:
-      - type: r3
+      - type: p5
         border: false
       - type: g3
         border: false
-      - type: y2
+      - type: b1
         border: false
-      - type: p1
-        border: false
-      - type: r5
+      - type: r1
         border: false

@@ -1,8 +1,8 @@
 stacks:
   - r: 0
-  - y: 0
-  - g: 1
-  - b: 2
+  - y: 1
+  - g: 2
+  - b: 0
   - p: 1
 players:
   - clueGiver: true
@@ -15,21 +15,21 @@ players:
   - cards:
       - type: b1
         border: false
+        below: Finesse
+      - type: y5
+      - type: r4
+        border: false
+      - type: g5
+      - type: r3
+        border: false
+  - cards:
       - type: p4
         border: false
+      - type: y2
+        border: false
       - type: b2
-        border: false
-      - type: g1
-        border: false
-      - type: r5
-  - cards:
+        clue: b
+        middleNote: b2
+        below: Play
       - type: g4
-        border: false
-      - type: b1
-        border: false
-      - type: g4
-        border: false
       - type: p3
-        middleNote: p
-      - type: p2
-        middleNote: p
