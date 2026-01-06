@@ -20,7 +20,7 @@ import Answer from "./level-5-bob-is-lazy/answer.yml";
 <TabItem value="question">
 
 - It is the first turn of the game and nothing is played on the stacks.
-- Alice clues number 2 to Cathy, touching Cathy's slot 1 and slot 4. (This is a _Play_ clue on Cathy's slot 1 card.)
+- Alice clues number 2 to Cathy, touching Cathy's slot 1 and slot 4. (This is a _Play Clue_ on Cathy's slot 1 card.)
 - Bob has a red 1 on his _Finesse Position_, so Cathy knows that Bob might blind-play it, which would make Alice's clue a _Finesse_ on red 1 into red 2.
 - Instead, Bob clues number 1 to Alice, touching a green 1 on slot 1.
 - What should Cathy do?
@@ -30,11 +30,10 @@ import Answer from "./level-5-bob-is-lazy/answer.yml";
 </TabItem>
 <TabItem value="solution">
 
-- The [_Urgency Principle_](../level-5.mdx#urgency-principle-playing-into-finesses-as-soon-as-possible) says that blind-plays should happen **as soon as possible**.
-- Bob seemingly defers blind-playing and instead gives a 1-for-1 clue to a card which is not on chop.
-- Bob is **not** lazy, he found Alice's clue to be perfectly fine, and didn't see any reason to blind-play.
-- The _Finesse_ is therefore an [_Ambiguous_](../level-5.mdx#the-ambiguous-finesse) [_Self-Finesse_](../level-2.mdx#the-self-finesse) on Cathy, which should play her slot 2 as any playable 1.
-- Her slot 2 plays successfully as the yellow 1, and she marks her (new) slot 2 card as the matching yellow 2.
+- Bob seemingly defers blind-playing and instead gives a 1-for-1 clue to a card that just as easily could have been gotten by Cathy.
+- The [_Urgency Principle_](../level-5.mdx#urgency-principle-playing-into-finesses-as-soon-as-possible) says that blind-plays should happen **as soon as possible**. Thus, _Urgency Principle_ means that Bob was never _Finessed_ in the first place.
+- However, Alice's clue must be a _Finesse_ of some kind, because Cathy's slot 1 card was indicated as being playable. Thus, it would be classified as an [_Ambiguous_](../level-5.mdx#the-ambiguous-finesse) [_Self-Finesse_](../level-2.mdx#the-self-finesse) on Cathy, which means that Cathy should blind-play her _Finesse Position_ as any playable 1.
+- Once Cathy successfully blind-plays her _Finesse Position_ as a yellow 1, she knows that her previously unknown 2 that was the _Finesse_ target must match and must be exactly yellow 2.
 
 <Answer />
 
