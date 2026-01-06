@@ -1,0 +1,38 @@
+stacks:
+  - r: 5
+  - y: 2
+  - g: 3
+  - b: 4
+  - p: 5
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Yellow 3
+        below: Finesse
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: y4
+        border: false
+        below: Pushed
+      - type: r3
+        clue: r
+        trash: true
+        below: Trash
+      - type: b5
+      - type: g5
+        border: false
+  - cards:
+      - type: x
+        above: Green 4
+        below: Ignition
+      - type: x
+      - type: x
+      - type: x

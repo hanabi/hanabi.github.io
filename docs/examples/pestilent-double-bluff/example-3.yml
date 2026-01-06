@@ -1,0 +1,40 @@
+stacks:
+  - r: 1
+  - y: 1
+  - g: 0
+  - b: 0
+  - p: 1
+players:
+  - clueGiver: true
+    cards:
+      - type: r3
+        border: false
+      - type: b4
+        border: false
+      - type: r3
+        border: false
+      - type: b2
+        border: false
+  - cards:
+      - type: 3
+      - type: 3
+      - type: x
+        above: Red 2
+        middleNote: g2
+        below: Bluff
+      - type: x
+  - cards:
+      - type: x
+        above: Purple 2
+        below: Bluff
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: g3
+        clue: 3
+        below: Play
+        middleNote: "!r, !p"
+      - type: x
+      - type: x

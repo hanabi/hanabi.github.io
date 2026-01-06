@@ -1,0 +1,46 @@
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - clueGiver: true
+    cards:
+      - type: b2
+        border: false
+      - type: p1
+        border: false
+      - type: y5
+        border: false
+      - type: 3
+        above: Blue 3
+  - cards:
+      - type: r1
+        border: false
+        middleNote: b1
+        below: Plays
+      - type: p1
+        middleNote: b1?
+        border: false
+      - type: r2
+        border: false
+      - type: b1
+        border: false
+  - space
+  - cards:
+      - type: y3
+        border: false
+      - type: p3
+        border: false
+      - type: g1
+        clue: g
+        middleNote: g1
+        below: Play
+      - type: b5
+        border: false

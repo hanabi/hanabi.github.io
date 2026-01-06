@@ -267,6 +267,17 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
+    {
+      "More Examples": [
+        "examples/pestilent-double-bluff",
+        "examples/pull-double-finesse",
+        "examples/unnecessary",
+        "examples/purge-bluff",
+        "examples/rank-choice-ejection",
+        "examples/self-color-bluffs",
+        "examples/surreptitious-finesse",
+      ],
+    },
     "glossary",
     "convention-attribution",
   ],
