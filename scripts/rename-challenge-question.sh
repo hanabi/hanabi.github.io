@@ -28,7 +28,7 @@ DOCS_DIR="docs/challenge-questions"
 CURRENT_BASENAME=$(basename "$CURRENT_PATH" .mdx)
 CURRENT_ASSET_DIR="$DOCS_DIR/$CURRENT_BASENAME"
 
-# Extract level number from the current filename (e.g., level-2-question-1 -> 2).
+# Extract level number from the current filename (e.g. level-2-question-1 -> 2).
 if [[ "$CURRENT_BASENAME" =~ ^level-([0-9]+)- ]]; then
   LEVEL_NUM="${BASH_REMATCH[1]}"
 else
