@@ -32,5 +32,5 @@ players:
       - type: x
       - type: b3
         clue: 3
-        middleNote: "!b, !p"
+        middleNote: "!r, !p"
         below: Play

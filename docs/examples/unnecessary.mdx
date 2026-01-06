@@ -14,13 +14,12 @@ import UnknownTrashDischarge from "./unnecessary/unknown-trash-discharge.yml";
 
 #### Example 1
 
-- In a 3-player game:
-  - All of the 2's are played on the stacks.
-  - Alice clues number 1 to Cathy, touching a single 1 on her chop. Since all of the 1's are already played, it is globally known that this must be me kind of _Trash Push_.
-  - Bob sees that the pushed card is a red 3. Cathy has no other red cards in her hand, so Alice could have just clued red to Cathy instead of doing a complicated _Trash Push_.
-  - Thus, Bob knows that this is an _Unnecessary Trash Push_. Bob blind-plays his _Finesse Position_ card. It is the blue 3 and it successfully plays.
-  - Cathy knows that this must be a _Trash Push Finesse_ on blue 4. Cathy blind-plays her slot 4 card, but it is red 3 instead and it successfully plays.
-  - Cathy now knows that since the two cards did not connect to each other, this must have been an _Unnecessary Trash Push_.
+- All of the 2's are played on the stacks.
+- Alice clues number 1 to Cathy, touching a single 1 on her chop. Since all of the 1's are already played, it is globally known that this must be some kind of _Trash Push_.
+- Bob sees that the pushed card is a red 3. Cathy has no other red cards in her hand, so Alice could have just clued red to Cathy instead of doing a complicated _Trash Push_.
+- Thus, Bob knows that this is an _Unnecessary Trash Push_. Bob blind-plays his _Finesse Position_ card as an _Ignition_. It is the blue 3 and it successfully plays.
+- Cathy knows that this must be a _Trash Push Finesse_ on blue 4. Cathy blind-plays her slot 4 card, but it is red 3 instead and it successfully plays.
+- Cathy now knows that since the two cards did not connect to each other, this must have been an _Unnecessary Trash Push_.
 
 <TrashPush1 />
 
@@ -30,7 +29,7 @@ import UnknownTrashDischarge from "./unnecessary/unknown-trash-discharge.yml";
 - Alice can clue red to Bob in order to get the red 3 to play. Nothing is "blocking" the clue.
 - Instead, Alice clues green to Bob as a _Trash Push_.
 - Bob knows that this is a _Trash Push_, so he blind-plays his slot 1 card. It is a red 3 and it successfully plays.
-- Cathy sees that this _Trash Push_ was _unnecessary_. So, Cathy blind-plays her _Finesse Position_ card. It is a yellow 1 and it successfully plays.
+- Cathy sees that this _Trash Push_ was _unnecessary_. So, Cathy blind-plays her _Finesse Position_ card as an _Ignition_. It is a yellow 1 and it successfully plays.
 
 <TrashPush2 />
 
@@ -49,7 +48,7 @@ import UnknownTrashDischarge from "./unnecessary/unknown-trash-discharge.yml";
 ### The Unnecessary Trash Bluff (with a Trash Push)
 
 - See the example image below.
-- Alice clues number 1 to Donald.
+- Alice clues number 1 to Donald on a blue 1.
 - Bob knows that from Donald's perspective, Alice's clue looks like a _Play Clue_ on an unplayed 1. Donald will go on to misplay the blue 1.
 - Thus, Bob knows that this is a _Trash Finesse_ or _Trash Bluff_. He blind-plays his _Finesse Position_ card. It is a blue 2 and it successfully plays.
 - Cathy knows that all _Trash Bluffs_ are _unnecessary_. She also sees that the _unnecessary_ component will be a _Trash Push_ instead of a _Chop Move_ (since the blue 1 was on Donald's chop). Cathy plays her previously known red 1.
@@ -61,8 +60,8 @@ import UnknownTrashDischarge from "./unnecessary/unknown-trash-discharge.yml";
 
 - See the example image below.
 - Alice can clue number 4 to Bob in order to get the blue 4 to play. Nothing is "blocking" the clue.
-- Instead, Alice clues red to Donald.
-- Bob knows that Donald's perspective, Alice's clue looks like a _Play Clue_ on the red 4. Donald will go on to misplay the red 1 as a red 4.
+- Instead, Alice clues red to Donald, touching a trash red 1.
+- Bob knows that from Donald's perspective, Alice's clue looks like a _Play Clue_ on the red 4. Donald will go on to misplay the red 1 as a red 4.
 - If Bob plays his _Finesse Position_ and it successfully plays, then that will not resolve the situation — Donald will then go on to think that the red card is red 5, which is not true.
 - Thus, Bob knows that this must be an _Unknown Trash Discharge_. Bob blind-plays his _Third Finesse Position_. It is a blue 4 and it successfully plays.
 - Cathy sees that the _Unknown Trash Discharge_ was _unnecessary_. She also sees that the _unnecessary_ component will be a _Trash Push_ instead of a _Chop Move_ (since the red 1 was on Donald's chop). Cathy plays her previously known green 4.
