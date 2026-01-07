@@ -1,0 +1,26 @@
+stacks:
+  - r: 2
+  - y: 2
+  - g: 2
+  - b: 2
+  - p: 2
+players:
+  - zeroClues: true
+    cards:
+      - type: x
+      - type: g3
+      - type: x
+      - type: x
+  - cards:
+      - type: y3
+      - type: r2
+        border: false
+      - type: b4
+        border: false
+      - type: p5
+        border: false
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x

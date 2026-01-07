@@ -1,0 +1,44 @@
+---
+title: Another Scream Discard
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-7-another-scream-discard/question.yml";
+import Answer from "./level-7-another-scream-discard/answer.yml";
+
+<ChallengeQuestionProgress level={7} id="level-7-another-scream-discard" />
+
+<Tabs
+  queryString="tab"
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- All the 2's have been played on the stacks.
+- There are 0 clues available.
+- Alice has a known playable red 3.
+- Bob has a green 4 on chop (green 3 has not been played yet).
+- Alice wants to save the useful green 3 and discards instead of playing the red 2.
+- Is this a legal [_Scream Discard_](../level-7.mdx#the-scream-discard-chop-move-sdcm)? Why or why not?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- This is **not** a legal [_Scream Discard_](../level-7.mdx#the-scream-discard-chop-move-sdcm).
+- Since the green 4 requires the green 3 to be played or clued first, it is _one-away-from-playable_.
+- Players are **only** allowed to _Scream Discard_ for cards that are **playable or critical**, not for cards that are merely _one-away-from-playable_.
+- If Alice performs this action:
+  - Bob doesn't know the identity of his card, and would mark is card as _Chop Moved_, thinking it is critical or playable.
+  - Cathy should treat it as a known mistake, but must remember that Bob has _Chop Moved_.
+
+<Answer />
+
+</TabItem>
+</Tabs>

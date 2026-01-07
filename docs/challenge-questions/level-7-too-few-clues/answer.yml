@@ -1,0 +1,25 @@
+stacks:
+  - r: 2
+  - y: 2
+  - g: 2
+  - b: 2
+  - p: 2
+players:
+  - cards:
+      - type: x
+      - type: x
+      - type: b3
+      - type: x
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: p5
+        clue: 5
+        below: Save

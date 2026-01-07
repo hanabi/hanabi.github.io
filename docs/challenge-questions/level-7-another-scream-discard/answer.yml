@@ -1,0 +1,29 @@
+stacks:
+  - r: 2
+  - y: 2
+  - g: 2
+  - b: 2
+  - p: 2
+bigText:
+  text: Illegal!
+players:
+  - zeroClues: true
+    cards:
+      - type: x
+      - type: r3
+      - type: x
+      - type: x
+        below: Discard
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: g4
+        middleNote: cm
+        cm: true
+        border: false
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
