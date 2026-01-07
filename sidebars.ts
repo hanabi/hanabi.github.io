@@ -252,9 +252,9 @@ const sidebars: SidebarsConfig = {
         {
           "Level 6": [
             "challenge-questions/level-6",
-            "challenge-questions/level-6-question-1",
-            "challenge-questions/level-6-question-2",
-            "challenge-questions/level-6-question-3",
+            "challenge-questions/level-6-filling-in-i",
+            "challenge-questions/level-6-filling-in-ii",
+            "challenge-questions/level-6-tempo-or-trash",
           ],
         },
         {

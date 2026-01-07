@@ -1,14 +1,14 @@
 ---
-title: Question 3
+title: Tempo or Trash?
 ---
 
 import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
-import Question from "./level-6-question-3/question.yml";
-import Answer from "./level-6-question-3/answer.yml";
+import Question from "./level-6-tempo-or-trash/question.yml";
+import Answer from "./level-6-tempo-or-trash/answer.yml";
 
-<ChallengeQuestionProgress level={6} id="level-6-question-3" />
+<ChallengeQuestionProgress level={6} id="level-6-tempo-or-trash" />
 
 <Tabs
   queryString="tab"
@@ -32,8 +32,8 @@ import Answer from "./level-6-question-3/answer.yml";
 <TabItem value="solution">
 
 - In this situation, the focus of the red clue is ambiguous:
-  - If the red clue were focused on the "new" slot 1 card, then the focus would be _Trash_, so the resulting move would be a _Trash Chop Move_ on slots 2, 3 and 4.
-  - If the red clue were focused on the already-clued slot 5, then the focus would be the previously-unknown-to-be-playable red 5, so the resulting move would be a _Tempo Clue Chop Move_ on slot 4.
+  - If the red clue were focused on the "new" slot 1 card, then the focus would be _Trash_, so the resulting move would be a [_Trash Chop Move_](../level-4.mdx#the-trash-chop-move-tcm) on slots 2, 3 and 4.
+  - If the red clue were focused on the already-clued slot 5, then the focus would be the previously-unknown-to-be-playable red 5, so the resulting move would be a [_Tempo Clue Chop Move_](../level-6.mdx#the-tempo-clue-chop-move-tccm) on slot 4.
   - Bob also knows that _Tempo Clue Chop Moves_ have precedence over _Trash Chop Moves_.
   - Thus, in this situation, Bob should only _Chop Move_ the card in slot 4.
   - Bob writes "cm" on his slot 4 card and proceeds to give an unrelated clue or discards his slot 1 card.
