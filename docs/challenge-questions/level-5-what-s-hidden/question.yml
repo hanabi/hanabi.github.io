@@ -13,17 +13,19 @@ players:
       - type: x
       - type: x
   - cards:
+      - type: b2
+        border: false
       - type: x
-        above: Blue 2
       - type: x
-      - type: x
-      - type: 2
-        above: Red 2
+      - type: r2
+        middleNote: 2
+        below: Plays
       - type: x
   - cards:
       - type: x
       - type: x
       - type: 3
         clue: 3
+        below: Play
       - type: x
       - type: x
