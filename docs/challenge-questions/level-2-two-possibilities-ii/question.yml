@@ -2,7 +2,7 @@ stacks:
   - r: 1
   - y: 1
   - g: 1
-  - b: 1
+  - b: 3
   - p: 1
 players:
   - clueGiver: true

@@ -1,14 +1,14 @@
 ---
-title: Question 7
+title: Play or Save?
 ---
 
 import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
-import Question from "./level-2-question-7/question.yml";
-import Answer from "./level-2-question-7/answer.yml";
+import Question from "./level-2-play-or-save/question.yml";
+import Answer from "./level-2-play-or-save/answer.yml";
 
-<ChallengeQuestionProgress level={2} id="level-2-question-7" />
+<ChallengeQuestionProgress level={2} id="level-2-play-or-save" />
 
 <Tabs
   queryString="tab"
@@ -35,8 +35,8 @@ import Answer from "./level-2-question-7/answer.yml";
    - Since Bob got a _Chop Focus_ clue, he should treat it as a _Play Clue_ or a _Save Clue_.
    - However, there are no directly playable 3's, so this cannot be a direct _Play Clue_.
    - The only 3 in the trash is the red 3, so this must be a _Save Clue_ on a red 3.
-   - This cannot be a _Self-Finesse_, because Alice would expect Bob to treat the clue as a _Save Clue_ on the red 3.
-   - This cannot be a _Reverse Finesse_. Even though Cathy has a red 2 on her _Finesse Position_, Cathy would interpret a clue touching a critical red 3 on chop as a _Save Clue_. Thus, she would never blind-play anything from Alice's clue.
+   - This cannot be a [_Self-Finesse_](../level-2.mdx#the-self-finesse), because Alice would expect Bob to treat the clue as a _Save Clue_ on the red 3.
+   - This cannot be a [_Reverse Finesse_](../level-2.mdx#the-reverse-finesse). Even though Cathy has a red 2 on her _Finesse Position_, Cathy would interpret a clue touching a critical red 3 on chop as a _Save Clue_. Thus, she would never blind-play anything from Alice's clue.
 1. Assuming that Alice has no cards of interest, Bob should clue number 2 to Cathy as a _Play Clue_ on the red 2. (A number 2 clue is better than a red clue because it gets the purple 2 "for free".)
 
 <Answer />
