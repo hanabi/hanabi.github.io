@@ -260,9 +260,9 @@ const sidebars: SidebarsConfig = {
         {
           "Level 8": [
             "challenge-questions/level-8",
-            "challenge-questions/level-8-question-1",
-            "challenge-questions/level-8-question-2",
-            "challenge-questions/level-8-question-3",
+            "challenge-questions/level-8-5-cards-left",
+            "challenge-questions/level-8-3-cards-left",
+            "challenge-questions/level-8-2-cards-left",
           ],
         },
       ],
