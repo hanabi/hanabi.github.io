@@ -4,6 +4,8 @@ stacks:
   - g: 3
   - b: 1
   - p: 0
+bigText:
+  text: Early Game
 players:
   - clueGiver: true
     cards:
@@ -31,7 +33,8 @@ players:
         border: false
   - cards:
       - type: p5
-        border: false
+        clue: 5
+        below: Stall
       - type: g3
         border: false
       - type: b1
