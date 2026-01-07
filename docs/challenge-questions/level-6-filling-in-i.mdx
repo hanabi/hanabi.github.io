@@ -1,14 +1,14 @@
 ---
-title: Question 1
+title: Filling in, I
 ---
 
 import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
-import Question from "./level-6-question-1/question.yml";
-import Answer from "./level-6-question-1/answer.yml";
+import Question from "./level-6-filling-in-i/question.yml";
+import Answer from "./level-6-filling-in-i/answer.yml";
 
-<ChallengeQuestionProgress level={6} id="level-6-question-1" />
+<ChallengeQuestionProgress level={6} id="level-6-filling-in-i" />
 
 <Tabs
   queryString="tab"
@@ -20,7 +20,7 @@ import Answer from "./level-6-question-1/answer.yml";
 <TabItem value="question">
 
 - Bob has two clued, but otherwise unknown cards in his hand: a blue card in slot 3 and a green card in slot 4.
-- Alice clues number 3 to Bob which touches the two clued cards in slots 3 and 4.
+- Alice clues number 3 to Bob which touches the two clued cards and "fills them in" to be exactly blue and green 3.
 - One blue 4 is in the discard pile. The other blue 4 is yet to be drawn from the remaining available cards.
 - What is the meaning of the clue?
 - What is the focus of the clue?
@@ -30,10 +30,10 @@ import Answer from "./level-6-question-1/answer.yml";
 </TabItem>
 <TabItem value="solution">
 
-- Since Bob's cards were already "gotten" when Alice clued, this must be a _Tempo Clue_.
+- Since Bob's cards were already "gotten" when Alice clued, this must be a [_Tempo Clue_](../level-6.mdx#the-tempo-clue).
 - The clue gets exactly two new cards to become playable within the next turn.
 - As the last remaining blue 4 is not accounted for, it is not currently possible for a _Prompt_ to get the blue card played at this time.
-- As a result, even though it does not meet the _[Minimum Clue Value Principle](../beginner/minimum-clue-value-principle)_ it is still considered to be "valuable".
+- As a result, even though it does not meet the [_Minimum Clue Value Principle_](../beginner/minimum-clue-value-principle) it is still considered to be "valuable".
 - As a _Tempo Clue_, the focus of the clue is the leftmost, blue 3 card.
 
 <Answer />
