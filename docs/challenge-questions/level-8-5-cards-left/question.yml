@@ -1,33 +1,33 @@
 stacks:
-  - r: 2
-  - y: 5
-  - g: 5
-  - b: 5
-  - p: 5
-discarded:
-  - r3
+  - r: 3
+  - y: 4
+  - g: 4
+  - b: 4
+  - p: 4
+bigText:
+  text: 1 clue left
 players:
   - clueGiver: true
     cards:
       - type: x
       - type: x
-      - type: x
-      - type: x
+      - type: y5
+      - type: g5
   - cards:
-      - type: p2
+      - type: r4
         border: false
       - type: b1
         border: false
-      - type: r5
+      - type: b2
         border: false
       - type: p3
         border: false
   - cards:
-      - type: r3
+      - type: p2
         border: false
       - type: p1
         border: false
       - type: y4
         border: false
-      - type: b3
+      - type: r5
         border: false
