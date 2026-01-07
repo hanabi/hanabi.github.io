@@ -1,0 +1,43 @@
+---
+title: Multiple Possibilities
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-5-multiple-possibilities/question.yml";
+import Answer from "./level-5-multiple-possibilities/answer.yml";
+
+<ChallengeQuestionProgress level={5} id="level-5-multiple-possibilities" />
+
+<Tabs
+  queryString="tab"
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- The red 2, the yellow 1, and the green 1 are played on the stacks.
+- Bob's hand is, from newest to oldest: `blue 1, blue 2, green 1, yellow 4`
+- Cathy's hand is, from newest to oldest: `green 2, purple 1, purple 2, yellow 2 (clued with 2)`
+- Alice clues 3 to Donald, touching a 3 on slot 2.
+- What notes should Donald write on his card? Be specific.
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- It can be a red 3 as a "normal" _Play Clue_.
+- It can be a yellow 3 as a [_Prompt_](../level-1.mdx#the-prompt) on Cathy's yellow 2.
+- It can be a green 3, as a [_Hidden Finesse_](../level-5.mdx#the-hidden-finesse) on Cathy's green 2. (The yellow 2 will play first as green 2.)
+- It can be a blue 3, as a [_Double Finesse_](../level-2.mdx#the-double-finesse--triple-finesse--quadruple-finesse) on Bob's blue 1 and blue 2.
+- It can be a purple 3, as a [_Clandestine Finesse_](../level-5.mdx#the-clandestine-finesse) on all of Cathy's cards. (This is technically called a [Surreptitious Finesse](../extras/special-finesses.mdx#the-surreptitious-finesse), but you do not have to worry about the distinction at level 5.)
+- Donald should write a note that includes all of these possibilities: `r3, y3 if y2 p, g3 if g2 f, b3 if b1 f, p3 if p1 f`
+
+<Answer />
+
+</TabItem>
+</Tabs>

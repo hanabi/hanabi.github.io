@@ -1,0 +1,53 @@
+---
+title: A Tricky Spot, II
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-5-a-tricky-spot-ii/question.yml";
+import Answer from "./level-5-a-tricky-spot-ii/answer.yml";
+
+<ChallengeQuestionProgress level={5} id="level-5-a-tricky-spot-ii" />
+
+<Tabs
+  queryString="tab"
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- The purple 1 is played on the stacks.
+- Alice can see that:
+  - Bob has a red 1 on his _Finesse Position_.
+  - Cathy's hand is, from newest to oldest: `red 2, yellow 4, green 1, blue 3`
+  - Cathy's green 1 was clued earlier with a green clue and is globally known as green 1.
+  - Donald's hand is, from newest to oldest: `red 2, purple 4, green 4, blue 2`
+- Which clues are available to Alice?
+- Which clue is the best to give?
+- From the perspective of the player receiving the best clue, what is the note that they would write? (Be specific and include the full evolution of the note.)
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- Alice has the following clues available:
+  - She can _2 Save_ the blue 2. This would be a 2-for-1, but does not get any cards to play.
+  - She can give a _Play Clue_ to Bob's red 1 (with either red or 1). This would be a 1-for-1.
+  - She can give a _Play Clue_ to Cathy's red 2 (with either red or 1). This would cause a _Finesse_ and be a 2-for-1.
+  - She can give a _Play Clue_ to Donald's red 2 with red. This would cause a _Finesse_ and be a 2-for-1.
+- However, since both red 2's are on _Finesse Position_, if Alice initiates a _Finesse_ with a red clue, both Cathy and Donald will mark their red card as possibly the red 3, leading to an [_Ambiguous Finesse_](../level-5.mdx#the-ambiguous-finesse).
+- Since Cathy already has a card to play and Donald has an important card on chop, the best move for Alice is to perform the _Finesse_ on Donald's red 2. This is safe because of [_Urgency Principle_](../level-5.mdx#urgency-principle-playing-into-finesses-as-soon-as-possible):
+  - Immediately after Alice's clue, Donald writes a note of "r1, r2 if r1 f, r3 if r2 f" on his red card.
+  - Bob knows that he is promised a red 1, so he successfully blind-plays the red 1 from _Finesse Position_.
+  - Donald updates his note from "r1, r2 if r1 f, r3 if r2 f" to "r2, r3 if r2 f".
+  - Cathy plays her green 1.
+  - Donald updates his note from "r2, r3 if r2 f" to "r2".
+
+<Answer />
+
+</TabItem>
+</Tabs>

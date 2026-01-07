@@ -1,0 +1,44 @@
+---
+title: What's Hidden?
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-5-what-s-hidden/question.yml";
+import Answer from "./level-5-what-s-hidden/answer.yml";
+
+<ChallengeQuestionProgress level={5} id="level-5-what-s-hidden" />
+
+<Tabs
+  queryString="tab"
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- The red 1 and blue 1 are played on the stacks.
+- Bob has:
+  - An unclued blue 2 on slot 1.
+  - A red 2 on slot 4 clued with a number 2 clue. (Bob does not know the identity.)
+- Alice clues number 3 to Cathy, touching a 3 on slot 3 as a _Play Clue_.
+- Bob plays the red 2.
+- Which notes should Cathy write on her 3?
+- What should Cathy do next?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- Cathy's 3 might be a red 3, which would make Alice's clue a [_Prompt_](../level-1.mdx#the-prompt) on the red 2.
+- Cathy's 3 might also be a blue 3, which would make Alice's clue a [_Hidden Finesse_](../level-5.mdx#the-hidden-finesse) on the blue 2.
+- Since both clues are legal, Cathy writes `r3, b3 if b2 f` on her card.
+- Thus, Cathy cannot play her 3 right now, so she must discard or perform some unrelated clue. Notably, Cathy should not clue the blue 2, because that might _Stomp_ on the _Hidden Finesse_.
+
+<Answer />
+
+</TabItem>
+</Tabs>

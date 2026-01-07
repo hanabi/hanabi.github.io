@@ -1,0 +1,48 @@
+---
+title: A Tricky Spot, I
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-5-a-tricky-spot-i/question.yml";
+import Answer from "./level-5-a-tricky-spot-i/answer.yml";
+
+<ChallengeQuestionProgress level={5} id="level-5-a-tricky-spot-i" />
+
+<Tabs
+  queryString="tab"
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- The purple 1 is played on the stacks.
+- Alice can see that:
+  - Bob has a red 1 on his _Finesse Position_,
+  - Cathy's hand is, from newest to oldest: `red 2, yellow 4, green 1, blue 3`
+  - Cathy's green 1 was clued earlier with a green clue and is globally known as green 1.
+  - Donald's hand is, from newest to oldest: `red 2, purple 4, green 4, blue 5`
+- Which clues are available to Alice?
+- Which clue is the best to give?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- Alice has the following clues available:
+  - She can _5 Save_ the blue 5. This is safe, but does not get any cards to play.
+  - She can give a _Play Clue_ to Bob's red 1 (with either red or 1). This would be a 1-for-1.
+  - She can give a _Play Clue_ to Cathy's red 2 (with either red or 1). This would cause a _Finesse_ and would be a 2-for-1.
+  - She can give a _Play Clue_ to Donald's red 2 (with either red or 1). This would cause a _Finesse_ and would be a 2-for-1.
+- However, since both red 2's are on _Finesse Position_, if Alice initiates a _Finesse_ with a red clue, both Cathy and Donald will mark their red card as possibly the red 3, leading to an [_Ambiguous Finesse_](../level-5.mdx#the-ambiguous-finesse).
+- Thus, the correct way to initiate the _Finesse_ is with a number 2 clue, which does not cause any ambiguity.
+- Is it better to use Cathy's red 2 or Donald's red 2? Since Cathy already has a green 1 to play and Donald has an important card on chop, the best clue for Alice is to clue number 2 to Donald to trigger a _Finesse_.
+
+<Answer />
+
+</TabItem>
+</Tabs>
