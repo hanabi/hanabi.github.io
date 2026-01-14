@@ -1,0 +1,50 @@
+---
+title: Should this Blind-Play?
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-7-should-this-blind-play/question.yml";
+import Answer from "./level-7-should-this-blind-play/answer.yml";
+
+<ChallengeQuestionProgress level={7} id="level-7-should-this-blind-play" />
+
+<Tabs
+  queryString="tab"
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- Red 3, yellow 5, green 3, blue 3, and purple 5 are played on the stacks.
+- Alice has a [_Chop Moved_](../level-4.mdx#the-5s-chop-move-5cm) card from several turns ago with a negative 5 clue.
+- Should Alice blind-play this card? What are the considerations?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- The answer to whether Alice should blind-play is that **it depends** on multiple factors.
+- Alice must first figure out whether this card is safe to play:
+  - It cannot be a 5 (from the negative clue), so it is not _Critical_.
+  - It _can_ be a red 4, green 4, or blue 4, which would successfully play.
+  - It can also be any other card in the game, which would cause a strike to happen.
+  - Since the card has been _Chop Moved_, it is more likely to be a useful card than not.
+- Thus, since the outcomes from blind-playing are either a successful play or a strike, Alice can proceed with further considerations. (If the card was _Critical_, then she should definitely not risk playing it.)
+- According to the [_Blind-Playing Chop Moved Cards_](../level-7.mdx#blind-playing-chop-moved-cards) section, players can blind-play their _Chop Moved_ cards if the team has one or more strikes to spare.
+- Thus:
+  - If the team has 0 strikes, Alice will probably want to try blind-playing the card.
+  - If the team has 1 strike, Alice might want to try blind-playing the card.
+  - If the team has 2 strike, Alice should absolutely not try blind-playing the card.
+- If the team has 0 or 1 strikes, the final consideration is how well the current game is going. What is the current _Tempo_ and _Efficiency_? In other words, how much time is left and how many future clues are left?
+  - If the game is already going well, then there is no need to risk blind-playing anything. Alice can just discard normally and wait for one of her team members to clue the card directly.
+  - If the _End-Game_ has arrived and there are not very many clues to spare, then Alice can try blind-playing the card to save the team a clue.
+
+<Answer />
+
+</TabItem>
+</Tabs>

@@ -1,0 +1,26 @@
+stacks:
+  - r: 0
+  - y: 1
+  - g: 2
+  - b: 2
+  - p: 0
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: g3
+      - type: y1
+        trash: true
+        middleNote: kt
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: b4
+        border: false
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x

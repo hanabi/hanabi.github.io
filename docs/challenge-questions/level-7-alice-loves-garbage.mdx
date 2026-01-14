@@ -1,0 +1,42 @@
+---
+title: Alice Loves Garbage
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-7-alice-loves-garbage/question.yml";
+import Answer from "./level-7-alice-loves-garbage/answer.yml";
+
+<ChallengeQuestionProgress level={7} id="level-7-alice-loves-garbage" />
+
+<Tabs
+  queryString="tab"
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- All the 2's are played on the stacks.
+- There are 0 clues available.
+- Alice has a globally known yellow 2 in her hand.
+- Alice decides to hold on to her trash and discards her chop instead.
+- What signal is Alice sending? What should Bob do?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- Alice is performing a [_Scream Discard Chop Move (With Known-Trash)_](../level-7.mdx#the-scream-discard-chop-move-with-known-trash).
+- Normally, players are expected to discard their known-trash cards before discarding their chop.
+- By discarding her chop instead of the known-trash card, Alice is signaling that something is very wrong — specifically, that Bob's chop is critical or playable.
+- Bob should permanently move his chop by one position, and write "cm" on his slot 4 to mark it as _Chop Moved_.
+- Bob is not allowed to discard on this turn. Instead, he **must** give a clue.
+
+<Answer />
+
+</TabItem>
+</Tabs>

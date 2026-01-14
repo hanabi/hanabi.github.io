@@ -1,0 +1,45 @@
+---
+title: Too Few Clues
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-7-too-few-clues/question.yml";
+import Answer from "./level-7-too-few-clues/answer.yml";
+
+<ChallengeQuestionProgress level={7} id="level-7-too-few-clues" />
+
+<Tabs
+  queryString="tab"
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- All the 2's are played on the stacks.
+- There are 0 clues available.
+- Alice has a globally known playable blue 3.
+- Cathy has a critical purple 5 on her chop.
+- Alice decides to discard her chop instead of playing the blue 3.
+- Why did Alice discard?
+- What notes should Bob write?
+- What should Bob do on his turn?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- Alice performed a [_Generation Discard_](../level-7.mdx#the-generation-discard).
+- If Alice had played her blue 3, Bob would be forced to discard, and then Cathy might decide to discard the critical purple 5.
+- By performing a _Generation Discard_, Alice gives Bob a clue token to spend.
+- Since Cathy has a critical or playable card on her chop, Bob should use that clue to _5 Save_ Cathy's purple 5.
+- Bob should **not** write any notes, as a _Generation Discard_ does not _Chop Move_ any cards.
+
+<Answer />
+
+</TabItem>
+</Tabs>

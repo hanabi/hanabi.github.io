@@ -1,0 +1,40 @@
+---
+title: Screaming into the Void
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-7-screaming-into-the-void/question.yml";
+import Answer from "./level-7-screaming-into-the-void/answer.yml";
+
+<ChallengeQuestionProgress level={7} id="level-7-screaming-into-the-void" />
+
+<Tabs
+  queryString="tab"
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- All the 2's are played on the stacks.
+- There are 0 clues available.
+- Alice has a known playable green 3.
+- Bob's hand is, from newest to oldest: `yellow 3 (globally known), red 2, blue 4, purple 5`.
+- What should Alice do this turn?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- Alice should play her green 3.
+- Since Bob can play his yellow 3, the purple 5 is not in immediate danger of being discarded.
+- It would be illegal for Alice to perform a [_Scream Discard_](../level-7.mdx#the-scream-discard-chop-move-sdcm), because that is only supposed to be used as a last resort, and since Bob is expected to play the yellow 3 on this turn, it would not be a last resort.
+
+<Answer />
+
+</TabItem>
+</Tabs>

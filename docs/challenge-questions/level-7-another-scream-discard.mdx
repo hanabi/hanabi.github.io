@@ -1,0 +1,40 @@
+---
+title: Another Scream Discard
+---
+
+import ChallengeQuestionProgress from "@site/src/challengeQuestions.tsx";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Question from "./level-7-another-scream-discard/question.yml";
+import Answer from "./level-7-another-scream-discard/answer.yml";
+
+<ChallengeQuestionProgress level={7} id="level-7-another-scream-discard" />
+
+<Tabs
+  queryString="tab"
+  defaultValue="question"
+  values={[
+    {label: 'Question', value: 'question'},
+    {label: 'Solution', value: 'solution'},
+  ]}>
+<TabItem value="question">
+
+- All the 2's are played on the stacks.
+- There are 0 clues available.
+- Alice has a known playable red 3.
+- Bob has a green 4 on chop (green 3 has not been played yet).
+- Alice wants to save the useful green 4 and discards instead of playing the red 3.
+- Is this a legal [_Scream Discard_](../level-7.mdx#the-scream-discard-chop-move-sdcm)? Why or why not?
+
+<Question />
+
+</TabItem>
+<TabItem value="solution">
+
+- This is **not** a legal [_Scream Discard_](../level-7.mdx#the-scream-discard-chop-move-sdcm) because the green 4 is _one-away-from-playable_.
+- Players are **only** allowed to _Scream Discard_ for cards that are **playable** or **critical**, not for cards that are _one-away-from-playable_.
+
+<Answer />
+
+</TabItem>
+</Tabs>
