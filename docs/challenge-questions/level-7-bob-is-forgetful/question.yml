@@ -22,6 +22,5 @@ players:
   - cards:
       - type: x
       - type: x
-      - type: 3
-        middleNote: r4
+      - type: 4
       - type: x

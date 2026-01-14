@@ -4,8 +4,6 @@ stacks:
   - g: 3
   - b: 3
   - p: 5
-bigText:
-  text: 2 strikes left
 players:
   - clueGiver: true
     cards:
@@ -15,9 +13,6 @@ players:
       - type: 1234
         cm: true
         middleNote: cm
-        below:
-          text: Play
-          color: cyan
   - cards:
       - type: x
       - type: x
