@@ -13,27 +13,25 @@ players:
       - type: x
       - type: x
   - cards:
-      - type: r4
-        clue: r
-        middleNote: r3
+      - type: b4
+        clue: b
+        middleNote: b3
         below: Play
       - type: x
+      - type: b
+        clue: b
+        middleNote: b4, b5
       - type: x
       - type: x
-      - type: x
-  - text: After Bob misplays the red 4...
+  - text: After Bob misplays the blue 4...
   - offset: -1
     cards:
       - type: x
       - type: x
-        cm: true
-        middleNote: cm
       - type: x
         cm: true
         middleNote: cm
-      - type: x
-        cm: true
-        middleNote: cm
+      - type: b
       - type: x
         cm: true
         middleNote: cm

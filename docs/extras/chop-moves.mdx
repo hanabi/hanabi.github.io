@@ -57,14 +57,20 @@ import DoubleOrderChopMove from "./chop-moves/double-order-chop-move.yml";
 
 ### The Misplay Chop Move
 
-- Sometimes, a desirable card is on the next player's chop and it is not directly cluable. In this situation, players can cleverly use the various kinds of _Chop Moves_ in order to save the card (e.g. _Trash Chop Move_, _5's Chop Move_, _Tempo Clue Chop Move_, and so forth).
-- However, none of these _Chop Moves_ may be available to perform. In such a situation, players can _Chop Move_ a player by giving them a clue to make them intentionally misplay the clued card. This works in exactly the same way as a _Trash Chop Move_, except that it the trash is not known to the player receiving the clue (and it costs the team a strike).
+- Sometimes, a desirable card is on the next player's chop and it is not directly cluable. In this situation, players can cleverly use the various kinds of _Chop Moves_ in order to save the card, like the _Trash Chop Move_, _5's Chop Move_, _Tempo Clue Chop Move_, and so on.
+- However, none of these _Chop Moves_ may be available to perform. In such a situation, players can _Chop Move_ the very next player by giving them a clue to make them intentionally misplay the clued card. This works in a similar way as a _Trash Chop Move_, except that:
+  - the trash is not known to the player receiving the clue
+  - it costs the team a strike
+- If multiple cards are touched in a _Misplay Chop Move_, then:
+  - All of the touched cards to the right of the focused/misplayed card should be kept. _Good Touch Principle_ applies to those cards.
+  - All of the non-touched cards to the right of the focused/misplayed card should be _Chop Moved_. (This means that _Misplay Chop Moves_ work slightly differently than _Trash Chop Moves_.)
 - For example, in a 3-player game:
   - All of the 2's are played on the stacks.
-  - Bob's hand is completely unclued.
-  - Alice clues Bob red, touching one card on slot 1 as a _Play Clue_.
-  - Bob assumes that it is a red 3 and immediately plays the card. However, it is actually a red 4 and it misplays.
-  - Bob knows that if Alice is not making a mistake, then she must be trying to communicate something special. Similar to a _Trash Chop Move_, Bob can reason that multiple cards in his hand are important. He marks slot 2, slot 3, slot 4, and slot 5 as being _Chop Moved_.
+  - Bob's hand is completely unclued. Bob also has three critical cards in a row on his chop.
+  - Alice sees that it would require three separate clues to clue all of Bob's critical cards. However, Alice can obviously only give one clue.
+  - Alice clues blue to Bob, touching a card in slot 1 and slot 3 as a _Play Clue_.
+  - Bob knows that the clue is focused on his slot 1 card. Therefore, the slot 1 card must be the blue 3. He tries to play the card, but it is actually a blue 4 and misplays.
+  - Bob knows that if Alice is not making a mistake, she is communicating a _Misplay Chop Move_. Bob marks his slot 3 and slot 5 cards are being _Chop Moved_. Additionally, Bob marks his other blue card in slot 4 as being a blue 3, a blue 4, or a blue 5. Bob's chop is now his slot 2 card.
 
 <MisplayChopMove />
 
