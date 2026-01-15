@@ -22,7 +22,7 @@ players:
         clue: b
       - type: x
       - type: x
-  - text: After Bob misplays the red 4...
+  - text: After Bob misplays the blue 4...
   - offset: -1
     cards:
       - type: x
