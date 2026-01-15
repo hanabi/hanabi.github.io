@@ -58,14 +58,14 @@ import DoubleOrderChopMove from "./chop-moves/double-order-chop-move.yml";
 ### The Misplay Chop Move
 
 - Sometimes, a desirable card is on the next player's chop and it is not directly cluable. In this situation, players can cleverly use the various kinds of _Chop Moves_ in order to save the card (e.g. _Trash Chop Move_, _5's Chop Move_, _Tempo Clue Chop Move_, and so forth).
-- However, none of these _Chop Moves_ may be available to perform. In such a situation, players can _Chop Move_ a player by giving them a clue to make them intentionally misplay the clued card. This works in the same way as a _Trash Chop Move_, except that the trash is not known to the player receiving the clue (and it costs the team a strike).  This means that if **multiple** cards are touched by the clue, all cards up to the focus of the clue that misplays are treated as chop moved.
+- However, none of these _Chop Moves_ may be available to perform. In such a situation, players can _Chop Move_ a player by giving them a clue to make them intentionally misplay the clued card. This works in the same way as a _Trash Chop Move_, except that the trash is not known to the player receiving the clue (and it costs the team a strike). This means that if **multiple** cards are touched by the clue, all cards up to the focus of the clue that misplays are treated as chop moved.
 - For example, in a 3-player game:
   - All of the 2's are played on the stacks.
   - Bob's hand is completely unclued, but requires 3 critical cards saving in his chop (a 3, a 4 and a 5).
   - All three cards need saving, but there is only 1 clue, therefore Alice uses a _Misplay Chop Move_.
   - Alice clues Bob Blue, touching cards in slot 2 and slot 4 as a _Play Clue_.
   - Bob assumes that the focus, the leftmost card, is a blue 3 and immediately plays the card. However, it is actually a blue 4 and misplays.
-  - Bob knows that if Alice is not making a mistake, then she must be trying to communicate something special.  Bob can reason that multiple cards in his hard are important, so he marks slot 3, slot 4 and slot 5 as being _Chop Moved_.  Slot 3 has been chop moved, therefore slot 2 is his new chop.
+  - Bob knows that if Alice is not making a mistake, then she must be trying to communicate something special. Bob can reason that multiple cards in his hard are important, so he marks slot 3, slot 4 and slot 5 as being _Chop Moved_. Slot 3 has been chop moved, therefore slot 2 is his new chop.
 
 <MisplayChopMove />
 
