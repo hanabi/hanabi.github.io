@@ -28,6 +28,8 @@ players:
     cards:
       - type: x
       - type: x
+        cm: true
+        middleNote: cm
       - type: x
         cm: true
         middleNote: cm
