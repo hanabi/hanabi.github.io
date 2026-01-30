@@ -71,6 +71,7 @@ const WORD_TO_COLOR: ReadonlyMap<string, string> = new Map([
   ["loaded", "darkgreen"],
   ["bad", "gray"],
   ["brown", "sienna"],
+  ["muddy", "saddlebrown"],
 ]);
 
 const TEXT_EXPANSION: ReadonlyMap<string, string[]> = new Map([
