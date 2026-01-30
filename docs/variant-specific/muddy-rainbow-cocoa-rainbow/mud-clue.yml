@@ -1,0 +1,35 @@
+suits:
+  m: muddy
+stacks:
+  - r: 2
+  - y: 2
+  - g: 2
+  - b: 2
+  - p: 2
+  - m: 2
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: m
+        clue: r
+        retouched: true
+      - type: m
+        clue: r
+        retouched: true
+        above: Muddy 3
+        below: Play
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
