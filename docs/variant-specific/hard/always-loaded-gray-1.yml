@@ -1,11 +1,11 @@
 suits:
-  w: white
+  a: gray
 stacks:
   - r: 0
   - y: 0
   - g: 0
   - b: 1
-  - w: 1
+  - a: 1
 bigText:
   text: Hard
 players:
@@ -30,7 +30,7 @@ players:
       - type: x
       - type: x
       - type: x
-      - type: w3
+      - type: a3
         clue: 3
         middleNote: a3
         below: Play
