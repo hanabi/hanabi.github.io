@@ -30,8 +30,11 @@ import TrashResult from "./example-images/trash.yml";
 import BigTextSource from "!raw-loader!./example-images/big-text.yml";
 import BigTextResult from "./example-images/big-text.yml";
 
-import SuitsSource from "!raw-loader!./example-images/suits.yml";
-import SuitsResult from "./example-images/suits.yml";
+import Suits1Source from "!raw-loader!./example-images/suits-1.yml";
+import Suits1Result from "./example-images/suits-1.yml";
+
+import Suits2Source from "!raw-loader!./example-images/suits-2.yml";
+import Suits2Result from "./example-images/suits-2.yml";
 
 export const Code = ({ code }) => (
   <Highlight code={code} language="yaml">
@@ -227,17 +230,30 @@ For keywords "Bluff", "Finesse" and "Illegal!", color is ignored.
 Some variant-specific suits can be added via `suits`, which contains the mapping from the letter indicating the suit to the part of the filenames of card images and pips.
 Currently these variant suits are supported:
 
+Alternative suits:
+
 - black
 - brown
+- gray
+- muddy
 - null (needs to be in quotes because normally `null` is a YAML keyword)
 - omni
+- orange
 - pink
 - prism-rygbp
 - teal
 - white
 
-Standard suits don't need to be repeated in `suits`.
-
 This is done to be able to differentiate between suits which commonly use the same letter, e.g. or "i" for both prism and pink.
 
-<Example code={SuitsSource} Image={SuitsResult} />
+Standard suits that don't need to be repeated in `suits`:
+
+- red
+- yellow
+- green
+- blue
+- purple
+- multi
+
+<Example code={Suits1Source} Image={Suits1Result} />
+<Example code={Suits2Source} Image={Suits2Result} />

@@ -1,0 +1,31 @@
+suits:
+  o: orange
+  i: pink
+  s: prism-rygbp
+  t: teal
+  w: white
+stacks:
+  - o: 0
+  - i: 1
+  - s: 2
+  - t: 3
+  - w: 4
+players:
+  - cards:
+      - type: o4
+        border: false
+      - type: i2
+        border: false
+      - type: s3
+  - cards:
+      - type: i12345
+      - type: xois
+      - type: istw5
+  - cards:
+      - type: t1
+      - type: w2
+      - type: o1
+  - cards:
+      - type: s1
+      - type: s5
+      - type: s12345

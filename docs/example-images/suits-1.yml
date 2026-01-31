@@ -1,0 +1,33 @@
+suits:
+  k: black
+  n: brown
+  a: gray
+  m: muddy
+  u: "null"
+  o: omni
+stacks:
+  - k: 0
+  - n: 1
+  - a: 2
+  - m: 3
+  - u: 4
+  - o: 5
+players:
+  - cards:
+      - type: k4
+        border: false
+      - type: n2
+        border: false
+      - type: a4
+  - cards:
+      - type: m12345
+      - type: xknamuo
+      - type: knam5
+  - cards:
+      - type: m1
+      - type: u2
+      - type: o1
+  - cards:
+      - type: a4
+      - type: m3
+      - type: o12345
