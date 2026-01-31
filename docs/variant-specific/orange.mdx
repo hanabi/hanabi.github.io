@@ -10,15 +10,27 @@ These conventions apply to any variant with an orange (inverted) suit.
 - For example, in a 3-player game:
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice clues orange to Cathy, touching an orange 2 on slot 1 as a _Play Clue_.
-  - Bob sees that he has been promised an orange 1 on his _Finesse Position_. Normally, in a _Finesse_, he would blind-play his _Finesse Position_, but since he is promised an orange card, he blind-discards his _Finesse Position_ instead. It is the orange 1 and it successfully plays on the stacks.
-  - Cathy knows that she has the orange 2 to match the blind-discard.
+  - Bob sees that he has been promised an orange 1 on his _Finesse Position_. Normally, in a _Finesse_, he would blind-play his _Finesse Position_, but since he is promised an orange card, he drags his _Finesse Position_ to the discard pile instead. It is the orange 1 and it successfully plays on the stacks.
+  - Cathy knows that she has the orange 2 to match.
 - This concept works identically for a _Double Finesse_.
 - For example, in a 4-player game:
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice clues orange to Donald, touching an orange 3 on slot 1 as a _Play Clue_.
-  - Bob blind-discards his _Finesse Position_. It is orange 1 and it successfully plays on the stacks.
-  - Cathy blind-discards her _Finesse Position_. It is orange 2 and it successfully plays on the stacks.
-  - Donald knows that he has the orange 3 to match the two blind-discards.
+  - Bob drags his _Finesse Position_ to the discard pile. It is orange 1 and it successfully plays on the stacks.
+  - Cathy drags her _Finesse Position_ to the discard pile. It is orange 2 and it successfully plays on the stacks.
+  - Donald knows that he has the orange 3 to match.
+
+### The Orange Layered Finesse
+
+- An _Orange Finesse_ can also be _Layered_, as long as there are non-orange _Trash_ cards that lead to the promised card.
+- For example, in a 4-player game:
+  - All the 2's are played on the stacks.
+  - Cathy has a red 1 on slot 1 and an orange 3 on slot 2.
+  - Alice clues orange to Donald, touching an orange 4 on slot 3 as a _Play Clue_.
+  - Bob sees that Cathy can fulfil the _Finesse_ and does something unrelated.
+  - Cathy drags her slot 1 to the discard pile, thinking it is the orange 3. Instead, it is the red 1, and successfully discards.
+  - Cathy now knows that the orange 3 is inside of a _Orange Layered Finesse_. She marks her slot 2 as the orange 3.
+  - On her next turn, she drags her slot 2 to the discard pile. It is an orange 3 and successfully plays on the stacks.
 
 ### The Non-Orange Rank Play Clue Assumption
 
@@ -32,13 +44,13 @@ These conventions apply to any variant with an orange (inverted) suit.
 - For example, in a 3-player game:
   - All the 1's are played on the stacks except for the orange 1.
   - Alice clues number 1 to Bob, touching a 1 on slot 1 as a _Play Clue_.
-  - Bob assumes that it is the orange 1 and discards it. It is an orange 1 and successfully plays on the stacks.
+  - Bob assumes that it is the orange 1 and drags it to the discard pile. It is an orange 1 and it successfully plays on the stacks.
 - Additionally, rank _Play Clues_ to orange cards are assumed over _Self-Finesses_, which should follow from _Occam's Razor_.
 - For example, in a 3-player game:
   - Orange 1 is played on the stacks.
   - Alice clues number 2 to Bob, touching a 2 on slot 1 as a _Play Clue_.
   - Bob knows that this is either a direct _Play Clue_ on an orange 2, or a _Self-Finesse_ on e.g. red 1 into red 2. However, Bob knows that the _Non-Orange Rank Play Clue Assumption_ is turned off when orange is the only possibility.
-  - Bob discards his 2. It is an orange 2 and it successfully plays on the stacks.
+  - Bob drags his 2 to the discard pile. It is an orange 2 and it successfully plays on the stacks.
 
 ### The Orange Color Play Clue Assumption
 
@@ -48,7 +60,7 @@ These conventions apply to any variant with an orange (inverted) suit.
   - Alice clues orange to Bob, touching a card on slot 1 as a _Play Clue_.
   - Bob knows that the two playable orange cards are rainbow 1 and orange 1. That puts him in a potential dilemma, because guessing wrong will cause him to discard a card he intended to play.
   - However, Bob also knows that orange color play clues are assumed to be orange cards, which means that he can be confident that he has the orange 1 exactly.
-  - Bob discards his orange card. It is orange 1 and successfully plays on the stacks.
+  - Bob drags his orange card to the discard pile. It is orange 1 and it successfully plays on the stacks.
 
 ### The Orange Fix Clue
 
@@ -73,14 +85,16 @@ These conventions apply to any variant with an orange (inverted) suit.
 ### The Orange Gentleman's Discard
 
 - When an orange card is _Gentleman's Discarded_, instead of promising that the matching card is on _Finesse Position_, it is instead promised to be on chop.
+- Similar to _The Orange Layered Finesse_, the _Orange Gentleman's Discard_ can also be _Layered_ if the promised card is behind non-orange trash cards. (Unlike a normal _Layered Finesse_, the layering would go in the opposite order, similar to a _Layered Elimination Finesse_.)
 
 ### The Orange Baton Discard
 
 - When an orange card is _Baton Discarded_, instead of promising that the matching card is on _Finesse Position_, it is instead promised to be on chop.
+- This promised card should then be _Chop Moved_.
 
 ### The Orange Blaze Discard (Unchanged)
 
-- When an orange card is played as a _Blaze Discard_, there are no special rules like there are with _Gentleman's Discard_ and _Baton Discard_. In other words, Bob should blind-play his _Second Finesse Position_ if he sees that the matching orange card is on _Second Finesse Position_.
+- When an orange card is _Blaze Discarded_, there are no special rules like there are with _Gentleman's Discard_ and _Baton Discard_. In other words, if Bob sees the matching orange card on _Second Finesse Position_, he should blind-play his _Second Finesse Position_.
 
 ### The Hollow Bluff
 
@@ -89,12 +103,13 @@ These conventions apply to any variant with an orange (inverted) suit.
 - For example, in a 3-player game:
   - All the 1's are played on the stacks.
   - Alice clues red to Cathy, touching a red 3 as a _Play Clue_.
-  - Bob knows that this must be a _Finesse_, so he blind-plays his _Finesse Position_, trying to play a red 2. Instead, he discards an orange 1.
+  - Bob knows that this must be a _Finesse_, so he drags his _Finesse Position_ to the stacks, trying to play a red 2. Instead, he discards an orange 1.
   - Cathy knows that since Bob tried to play his _Finesse Position_, she must have the _one-away-from-playable_ red card, the red 3.
 - If the card discarded from a _Hollow Bluff_ is not trash, them all players should write _Elimination Notes_ for the other copy.
 - For example, in a 3-player game:
-  - The setup is identical to the previous example, but instead of blind-discarding an orange 1, Bob blind-discards an orange 3.
-  - Like the previous example, Cathy knows that her red card is red 3. Furthermore, Cathy knows that someone must have the other copy of the orange 3. Cathy does not see the orange 3 in anyone else's hand, she marks her non-red cards as possible orange 3's.
+  - The setup is identical to the previous example, but instead of Bob dragging an orange 1 to the stacks, it is an orange 3.
+  - Like the previous example, Cathy knows that her red card is red 3. Furthermore, Cathy knows that someone must have the other copy of the orange 3. Cathy does not see the orange 3 in anyone else's hand, so she marks her non-red cards as possible orange 3's.
+
 - Since _Hollow Bluffs_ are useful to get rid of the "land mines", they should never cause a _Chop Move_.
 
 ### The Hollow [Whatever]
@@ -109,12 +124,11 @@ These conventions apply to any variant with an orange (inverted) suit.
 - For example, in a 3-player game:
   - All the 1's are played on the stacks.
   - Alice clues orange to Cathy, touching an orange 3 as a _Play Clue_.
-  - Bob knows that this must be a _Finesse_, so he blind-discards his _Finesse Position_, trying to play an orange 2. Instead, he blind-discards a red 1.
+  - Bob knows that this must be a _Finesse_, so he drags his _Finesse Position_ to the discard pile, trying to play an orange 2. Instead, he discards a red 1.
   - Cathy knows that since Bob tried to discard his _Finesse Position_, she must have the one-away-from-playable orange card, the orange 3.
 - You can also perform a _Citrus Bluff_ on a non-trash card. Similar to a _Hollow Bluff_, this should cause all players to write _Elimination Notes_ for the other copy.
 - For example, in a 3-player game:
-  - The setup is identical to the previous example.
-  - Instead of blind-discarding a red 1, Bob blind-discards a red 3.
+  - The setup is identical to the previous example, but instead of Bob dragging a red 1 to the discard pile, it is a red 3.
   - Like the previous example, Cathy knows that her orange card is orange 3. Furthermore, Cathy knows that someone must have the other copy of the red 3. Cathy does not see the red 3 in anyone else's hand, so she marks her non-orange cards as possible red 3's.
 
 ### The Insolent Bluff
@@ -125,8 +139,7 @@ These conventions apply to any variant with an orange (inverted) suit.
   - Only red 1 is played on the stacks.
   - Alice clues number 3 to Cathy, touching an orange 3 on slot 1 as a _Play Clue_.
   - Normally, Bob would think that this is an orange _Double Finesse_. However, he also knows that because the _Insolent Bluff_ convention exists, so he should treat it as a _Known Bluff_ instead.
-  - Bob blind-plays his _Finesse Position_.
-  - A yellow 1 successfully plays on the stacks.
+  - Bob drags his _Finesse Position_ to the stacks. It is a yellow 1 and successfully plays.
   - Cathy knows that:
     - If Alice's clue was a normal _Bluff_, she would have a red 3.
     - If Alice's clue was a _Insolent Bluff_, she would have the orange 3.
@@ -135,12 +148,12 @@ These conventions apply to any variant with an orange (inverted) suit.
 
 ### Ejections & Discharges & Charms on Orange Cards
 
-- Orange cards can be used as targets for _Ejections_ and _Discharges_ and _Charms_. However, the blind-playing player should always blind-play instead of blind-discard.
+- Orange cards can be used as targets for _Ejections_ and _Discharges_ and _Charms_. However, the blind-playing player should always assume their card is non-orange.
 - For example, in a 3-player game:
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice clues orange to Cathy, touching an orange 5 as a _Play Clue_.
-  - Bob knows that this is a _5 Color Ejection_. But should he blind-play or blind-discard his _Second Finesse Position_?
-  - Bob knows that _Ejections_ & _Discharges_ & _Charms_ on orange cards call for blind-plays, so Bob blind-plays his _Second Finesse Position_. It is a red 1 and successfully plays on the stacks.
+  - Bob knows that this is a _5 Color Ejection_. But should he drag his _Second Finesse Position_ to the stacks or the discard pile?
+  - Bob knows that _Ejections_ & _Discharges_ & _Charms_ on orange cards call for blind-plays, so Bob drags his _Second Finesse Position_ to the stacks. It is a red 1 and successfully plays.
   - Cathy marks her orange card as exactly orange 5.
 
 ### Complicated Moves on Orange Cards are Necessary
@@ -162,7 +175,7 @@ These conventions apply to any variant with an orange (inverted) suit.
     - If Bob does nothing, Cathy will go on to discard the orange 1, causing a misplay.
     - If Bob blind-plays his _Finesse Position_, Cathy will think a _Chop Move Ignition_ is happening and will misplay her slot 5 card.
     - If Bob blind-plays his _Second Finesse Position_, Cathy will think a _Bad Chop Move Ejection_ is happening, and she will still go on to discard the orange 1, causing a misplay.
-    - Thus, Bob blind-plays his _Third Finesse Position_. It is a red 2 and successfully plays on the stacks.
+    - Thus, Bob blind-plays his _Third Finesse Position_. It is a red 2 and successfully plays.
     - Cathy marks her card as orange 1, since that is the only way that this type of clue would cause a _Discharge_.
 - If an _Orange Trash Discharge_ touches two or more trash cards, then only the focus is promised to be an orange card. The leftmost trash card is considered to be focused, since that is the card that would be discarded first.
 
@@ -174,5 +187,5 @@ These conventions apply to any variant with an orange (inverted) suit.
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice clues orange to Cathy, touching an orange 1 on slot 5 (chop).
   - Bob sees that from Cathy's perspective, this will look like an _Orange Fix Clue_, and Cathy will mark the card as `o3, o4`. Thus, it requires Bob to react in some way to prove that it is really an orange 1.
-  - Bob blind-plays his _Finesse Position_ as a _Known Bluff_. It is a red 1 and successfully plays on the stacks.
+  - Bob drags his _Finesse Position_ to the stacks as a _Known Bluff_. It is a red 1 and successfully plays.
   - Cathy updates her note from `o3, o4` to `o1`, since that is the only reason that Bob would have blind-played his _Finesse Position_ in this situation.
