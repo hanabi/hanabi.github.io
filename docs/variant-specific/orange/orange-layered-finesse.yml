@@ -1,0 +1,54 @@
+suits:
+  o: orange
+stacks:
+  - r: 2
+  - y: 2
+  - g: 2
+  - b: 2
+  - o: 2
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: r1
+        border: false
+        below:
+          text:
+            - Finesse,
+            - Drag to
+            - discard
+      - type: o3
+        border: false
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: o4
+        clue: o
+        middleNote: o4
+        below: Play
+      - type: x
+  - text: "Next turn:"
+  - offset: -2
+    cards:
+      - type: x
+      - type: o3
+        border: false
+        middleNote: o3
+        below:
+          text:
+            - Finesse,
+            - Drag to
+            - discard
+      - type: x
+      - type: x

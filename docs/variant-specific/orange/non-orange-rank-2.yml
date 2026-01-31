@@ -1,0 +1,36 @@
+suits:
+  o: orange
+stacks:
+  - r: 1
+  - y: 1
+  - g: 1
+  - b: 1
+  - o: 0
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: o1
+        clue: 1
+        middleNote: o1
+        below:
+          text:
+            - Play,
+            - Drag to
+            - discard
+          color: gold
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
