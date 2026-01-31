@@ -1,0 +1,46 @@
+suits:
+  o: orange
+stacks:
+  - r: 0
+  - y: 0
+  - g: 0
+  - b: 0
+  - o: 0
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Red 1
+        below:
+          text:
+            - Bluff,
+            - Drag to
+            - stacks
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: o1
+        clue: o
+        middleNote: o3, o4
+        below: Fix
+  - text: "After Bob plays:"
+  - offset: -1
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: o1
+        middleNote: o1

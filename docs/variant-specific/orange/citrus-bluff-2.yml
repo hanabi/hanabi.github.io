@@ -1,0 +1,41 @@
+suits:
+  o: orange
+stacks:
+  - r: 1
+  - y: 1
+  - g: 1
+  - b: 1
+  - o: 1
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Red 3
+        below:
+          text:
+            - Finesse,
+            - Drag to
+            - discard
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        middleNote: r3?
+      - type: o3
+        clue: o
+        middleNote: o3
+        below: Play
+      - type: x
+        middleNote: r3?
+      - type: x
+        middleNote: r3?
+      - type: x
+        middleNote: r3?

@@ -27,7 +27,7 @@ players:
   - cards:
       - type: x
       - type: i4
-        clue: pink
+        clue: i
         middleNote: i4
         below: Play
       - type: x

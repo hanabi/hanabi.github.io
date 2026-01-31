@@ -49,6 +49,7 @@ const WORD_TO_COLOR: ReadonlyMap<string, string> = new Map([
   ["pink", "pink"],
   ["white", "white"],
   ["gray", "gray"],
+  ["orange", "orange"],
 
   // Other
   ["focus", "gold"],
@@ -87,6 +88,7 @@ const COLORS_WITH_BLACK_TEXT: ReadonlySet<string> = new Set([
   "pink",
   "white",
   "cyan",
+  "orange",
 ]);
 
 class ImageGenerator {
@@ -678,15 +680,27 @@ class ImageGenerator {
       });
 
       // Draw the clue circle on the arrow.
-      const colors: ReadonlyMap<string, string> = new Map([
-        ["r", "red"],
-        ["b", "blue"],
-        ["g", "lightgreen"],
-        ["y", "yellow"],
-        ["p", "blueviolet"],
-        ["pink", "pink"],
-      ]);
-      const color = colors.get(clue) ?? "black";
+      let color: string;
+      if (/^\d$/.test(clue)) {
+        // For numeric clues, use black.
+        color = "black";
+      } else {
+        // For color clues, look up the suit, then use its color.
+        const cssColorOverrides: ReadonlyMap<string, string> = new Map([
+          ["green", "lightgreen"],
+          ["purple", "blueviolet"],
+        ]);
+        const suitWord = this.suitAbbreviationToWord.get(clue);
+        if (suitWord === undefined) {
+          throw new Error(
+            `Failed to find the word for a suit corresponding to the abbreviation of: ${clue}`,
+          );
+        }
+        color =
+          cssColorOverrides.get(suitWord)
+          ?? WORD_TO_COLOR.get(suitWord)
+          ?? suitWord;
+      }
       const cx = this.xOffset + 35;
       const cy = this.yOffset - 15;
       this.svgFile.addElement("circle", {
