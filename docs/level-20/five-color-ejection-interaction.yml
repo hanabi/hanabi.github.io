@@ -17,7 +17,7 @@ players:
   - cards:
       - type: x
       - type: x
-        above: Red 1
+        above: Blue 1
         below: Ejection
       - type: x
       - type: x
@@ -35,13 +35,11 @@ players:
       - type: x
       - type: x
   - text: "After Bob blind-plays slot 2:"
-  - cards:
+  - offset: -1
+    cards:
       - type: r
         middleNote: r5
       - type: r
-        above: Red 1
-        fix: true
       - type: r
-        above: Red 2
       - type: x
       - type: x

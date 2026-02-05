@@ -94,7 +94,7 @@ import NoInformationDoubleBluff from "./level-20/no-information-double-bluff.yml
 - For example, in a 3-player game, this would be a _5 Color Ejection_:
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice clues red to Cathy, touching a red 5 on slot 1, a red 1 on slot 2, and a red 2 on slot 3.
-  - Bob knows that this could be an _Out-of-Order Finesse_. Specifically, if Bob gives a follow-up number 5 _Fix Clue_ to Cathy, then Cathy would play the red 1, Cathy would play the red 2, and Bob would blind-play the red 3, Bob would blind-play the red 4, into Cathy's red 5.
+  - Bob knows that this could be an _Out-of-Order Finesse_. Specifically, if Bob gives a follow-up number 5 _Fix Clue_ to Cathy, then Cathy would play the red 1 and red 2, Bob would blind-play the red 3 and the red 4, and finally Cathy would play the red 5.
   - However, this line would require Bob to blind-play 2 cards, so Bob knows that he should prefer a _5 Color Ejection_ instead.
 
 <FiveColorEjectionInteraction />
@@ -102,7 +102,7 @@ import NoInformationDoubleBluff from "./level-20/no-information-double-bluff.yml
 - For example, in a 3-player game, this would be an _Out-of-Order Finesse_:
   - It is the first turn of the game and nothing is played on the stacks.
   - Alice clues red to Cathy, touching a red 5 on slot 1, a red 1 on slot 2, a red 2 on slot 3, and a red 4 on slot 4.
-  - Bob knows that this could be an _Out-of-Order Finesse_. Specifically, if Bob gives a follow-up number 5 _Fix Clue_ to Cathy, then Cathy would play the red 1, Cathy would play the red 2, Bob would blind-play the red 3, Cathy would play the red 4, and then Cathy would play the red 5.
+  - Bob knows that this could be an _Out-of-Order Finesse_. Specifically, if Bob gives a follow-up number 5 _Fix Clue_ to Cathy, then Cathy would play the red 1 and the red 2, Bob would blind-play the red 3, and finally Cathy would play the red 4 and the red 5.
   - Since this line only requires that Bob blind-plays 1 card, he knows that it cannot be a _5 Color Ejection_, so Bob performs the _Fix Clue_ to allow for the _Out-of-Order Finesse_.
 
 <OutOfOrderFinesse2 />
