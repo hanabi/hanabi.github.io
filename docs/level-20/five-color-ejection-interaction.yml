@@ -36,7 +36,7 @@ players:
       - type: x
   - text: "After Bob blind-plays slot 2:"
   - offset: -1
-  - cards:
+    cards:
       - type: r
         middleNote: r5
       - type: r
