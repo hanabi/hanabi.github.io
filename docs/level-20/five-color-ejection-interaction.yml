@@ -40,8 +40,6 @@ players:
       - type: r
         middleNote: r5
       - type: r
-        middleNote: !5
       - type: r
-        middleNote: !5
       - type: x
       - type: x
