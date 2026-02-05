@@ -17,7 +17,7 @@ players:
   - cards:
       - type: x
       - type: x
-        above: Red 1
+        above: Blue 1
         below: Ejection
       - type: x
       - type: x
@@ -40,9 +40,8 @@ players:
       - type: r
         middleNote: r5
       - type: r
-        above: Red 1
-        fix: true
+        middleNote: !5
       - type: r
-        above: Red 2
+        middleNote: !5
       - type: x
       - type: x
