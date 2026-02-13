@@ -15,16 +15,16 @@ players:
       - type: x
       - type: x
   - cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
       - type: y4
         clue: y
         middleNote: y1
         below:
           text: Misplays
           color: red
-      - type: x
-      - type: x
-      - type: x
-      - type: x
   - cards:
       - type: x
       - type: y4
