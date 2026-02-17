@@ -1,4 +1,5 @@
 import { useDocById } from "@docusaurus/plugin-content-docs/client";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 import { createProgressComponent, getSidebarParts } from "./sidebarProgress";
 
 export default function ChallengeQuestionProgress({
@@ -19,7 +20,7 @@ export default function ChallengeQuestionProgress({
 /** Component for a single question link that uses useDocById to get the actual title. */
 function QuestionLink({ path }: { path: string }): React.JSX.Element {
   const doc = useDocById(path);
-  const href = path.replace("challenge-questions/", "");
+  const href = useBaseUrl(`/${path}`);
 
   return (
     <li>
