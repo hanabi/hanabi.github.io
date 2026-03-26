@@ -144,5 +144,6 @@ export interface Text extends z.infer<typeof text> {}
 
 export interface Space extends z.infer<typeof space> {}
 
-export interface HanabiGameState
-  extends z.infer<typeof hanabiGameStateSchema> {}
+export interface HanabiGameState extends z.infer<
+  typeof hanabiGameStateSchema
+> {}
