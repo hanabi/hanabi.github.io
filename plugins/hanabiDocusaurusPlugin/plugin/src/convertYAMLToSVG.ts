@@ -1,6 +1,8 @@
 // See: https://webpack.js.org/contribute/writing-a-loader/
 // TODO: go through all variables and remove them potentially
 
+/* eslint-disable perfectionist/sort-maps */
+
 import YAML from "yaml";
 import type {
   BigText,
@@ -82,13 +84,13 @@ const TEXT_EXPANSION: ReadonlyMap<string, string[]> = new Map([
 ]);
 
 const COLORS_WITH_BLACK_TEXT: ReadonlySet<string> = new Set([
-  "gold",
-  "yellow",
-  "rainbow",
-  "pink",
-  "white",
   "cyan",
+  "gold",
   "orange",
+  "pink",
+  "rainbow",
+  "white",
+  "yellow",
 ]);
 
 class ImageGenerator {
