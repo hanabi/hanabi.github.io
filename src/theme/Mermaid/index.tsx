@@ -17,13 +17,13 @@ interface Size {
   height: number;
 }
 
-function useSize(ref: React.RefObject<HTMLElement>): Size {
+function useSize(ref: React.RefObject<HTMLElement | null>): Size {
   const [size, setSize] = useState<Size>({ width: 1, height: 1 });
   useLayoutEffect(() => {
-    if (!ref.current) {
-      return undefined;
-    }
     const r = ref.current;
+    if (r === null) {
+      throw new Error("Failed to get the current reference.");
+    }
     const observer = new ResizeObserver(() => {
       const rect = r.getBoundingClientRect();
       setSize(rect);

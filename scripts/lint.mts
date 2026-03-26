@@ -1,4 +1,4 @@
-import { $o, lintCommands, readFile } from "complete-node";
+import { $o, commandExists, lintCommands, readFile } from "complete-node";
 import { glob } from "glob";
 import path from "node:path";
 
@@ -8,6 +8,13 @@ const BAD_WORDS = [
   // This is a common mistake: https://github.com/hanabi/hanabi.github.io/pull/1367
   "Principal",
 ] as const;
+
+const yamllintExists = await commandExists("yamllint");
+if (!yamllintExists) {
+  throw new Error(
+    'Failed to find "yamllint". You can install it with: pip install --user yamllint',
+  );
+}
 
 await lintCommands(import.meta.dirname, [
   // Use TypeScript to type-check the code.
@@ -33,7 +40,7 @@ await lintCommands(import.meta.dirname, [
   "cspell-check-unused-words",
 
   // Check for template updates.
-  "complete-cli check --ignore build.ts,knip.config.js,LICENSE,lint.ts",
+  "complete-cli check --ignore action.yml,build.ts,knip.config.js,LICENSE,lint.ts",
 
   // Lint YAML files.
   "yamllint .",
