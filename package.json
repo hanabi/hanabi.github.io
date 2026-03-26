@@ -35,6 +35,7 @@
     "@docusaurus/preset-classic": "3.9.2",
     "@docusaurus/theme-mermaid": "3.9.2",
     "@mdx-js/react": "3.1.1",
+    "complete-common": "2.21.0",
     "prism-react-renderer": "2.4.1",
     "raw-loader": "4.0.2",
     "react": "19.2.4",

@@ -1,8 +1,8 @@
+import { isArray, isObject } from "complete-common";
 import { useEffect } from "react";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css"; // eslint-disable-line @typescript-eslint/no-restricted-imports, import-x/no-unassigned-import
 import sidebars from "../sidebars";
-import { isObject } from "./utils";
 
 /**
  * Extracts a list of page paths from a specific sidebar section or subsection.
@@ -12,7 +12,7 @@ import { isObject } from "./utils";
  */
 export function getSidebarParts(...path: readonly string[]): readonly string[] {
   const { mainSidebar } = sidebars;
-  if (mainSidebar === undefined || !Array.isArray(mainSidebar)) {
+  if (mainSidebar === undefined || !isArray(mainSidebar)) {
     throw new TypeError(
       'Failed to parse the "mainSidebar" from "sidebars.ts".',
     );
@@ -28,7 +28,7 @@ export function getSidebarParts(...path: readonly string[]): readonly string[] {
 
     if (!isObject(element)) {
       throw new TypeError(`Failed to find "${name}" in "sidebars.ts".`);
-    } else if (!Array.isArray(element[name])) {
+    } else if (!isArray(element[name])) {
       throw new TypeError(
         `Failed to parse "${name}" element from "sidebars.ts".`,
       );
@@ -49,7 +49,7 @@ export function getSidebarParts(...path: readonly string[]): readonly string[] {
 
       if (isObject(element)) {
         const subParts = Object.values(element)[0];
-        if (!Array.isArray(subParts)) {
+        if (!isArray(subParts)) {
           throw new TypeError(
             'Failed to parse a sub-element array in "sidebars.ts".',
           );
@@ -96,7 +96,7 @@ export function createProgressComponent(
 
     return (
       <div id="percent">
-        <CircularProgressbar value={percentage} text={`${percentage}%`} />
+        <CircularProgressbar text={`${percentage}%`} value={percentage} />
       </div>
     );
   };
