@@ -2,7 +2,7 @@ stacks:
   - r: 3
   - y: 0
   - g: 2
-  - b: 2
+  - b: 1
   - p: 0
 discarded:
   - b3
@@ -31,15 +31,15 @@ players:
     cards:
       - type: b4
         clue: b
-        middleNote: b4, b5
+        middleNote: b2345
       - type: r3
         border: false
       - type: g1
         border: false
       - type: b4
         clue: b
-        middleNote: b4, b5
+        middleNote: b2345
       - type: b3
         clue: b
-        middleNote: b3
+        middleNote: b23
         below: Save
