@@ -2,7 +2,7 @@ stacks:
   - r: 3
   - y: 0
   - g: 2
-  - b: 1
+  - b: 2
   - p: 0
 discarded:
   - b3
