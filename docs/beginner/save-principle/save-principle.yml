@@ -31,14 +31,14 @@ players:
     cards:
       - type: b4
         clue: b
-        middleNote: b2, b3, b4, b5
+        middleNote: b2345
       - type: r3
         border: false
       - type: g1
         border: false
       - type: b4
         clue: b
-        middleNote: b2, b3, b4, b5
+        middleNote: b2345
       - type: b3
         clue: b
         middleNote: b2, b3
