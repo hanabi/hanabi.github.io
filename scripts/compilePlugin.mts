@@ -1,7 +1,7 @@
-import { $, isDirectory, isMain } from "complete-node";
+import { $, isDirectory } from "complete-node";
 import path from "node:path";
 
-if (isMain(import.meta.filename)) {
+if (import.meta.main) {
   const packageRoot = path.resolve(import.meta.dirname, "..");
   await compilePlugin(packageRoot);
 }

@@ -126,7 +126,7 @@ const config: Config = {
     "/js/hotkey.js",
   ],
   future: {
-    experimental_faster: true,
+    faster: true,
     v4: true,
   },
 

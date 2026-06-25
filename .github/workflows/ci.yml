@@ -96,7 +96,7 @@ jobs:
     name: Discord Failure Notification
     # @template-ignore-next-line
     needs: [build, lint, deploy_website]
-    if: failure()
+    if: failure() && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: sarisia/actions-status-discord@v1

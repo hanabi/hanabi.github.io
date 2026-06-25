@@ -28,7 +28,9 @@ export function getSidebarParts(...path: readonly string[]): readonly string[] {
 
     if (!isObject(element)) {
       throw new TypeError(`Failed to find "${name}" in "sidebars.ts".`);
-    } else if (!isArray(element[name])) {
+    }
+
+    if (!isArray(element[name])) {
       throw new TypeError(
         `Failed to parse "${name}" element from "sidebars.ts".`,
       );

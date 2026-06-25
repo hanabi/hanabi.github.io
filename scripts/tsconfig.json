@@ -10,6 +10,10 @@
     "complete-tsconfig/tsconfig.node.json",
   ],
 
+  "compilerOptions": {
+    "rootDir": "..",
+  },
+
   // @template-ignore-next-line
   "include": ["./**/*.mts"],
 }

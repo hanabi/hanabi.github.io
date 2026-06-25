@@ -23,6 +23,7 @@ const textObject = z
     text: z
       .string()
       .min(1)
+      // eslint-disable-next-line unicorn/max-nested-calls
       .or(z.array(z.string().min(1)).min(1).readonly()),
     color: z.string().min(1).optional(),
   })
@@ -123,6 +124,7 @@ export const hanabiGameStateSchema = z
     discarded: z.array(cardType).readonly().optional(),
     bigText: bigText.optional(),
     players: z
+      // eslint-disable-next-line unicorn/max-nested-calls
       .array(player.or(text).or(space).or(z.literal("space")))
       .min(1)
       .readonly(),

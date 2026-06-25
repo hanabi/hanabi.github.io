@@ -5,14 +5,6 @@
   "extends": [
     // https://github.com/complete-ts/complete/blob/main/packages/complete-tsconfig/tsconfig.base.json
     "complete-tsconfig/tsconfig.base.json",
-
-    // https://github.com/complete-ts/complete/blob/main/packages/complete-tsconfig/tsconfig.node.json
-    "complete-tsconfig/tsconfig.node.json",
-
-    // @template-customization-start
-    // https://github.com/facebook/docusaurus/blob/main/packages/docusaurus-tsconfig/tsconfig.json
-    "@docusaurus/tsconfig",
-    // @template-customization-end
   ],
 
   // @template-customization-start
@@ -33,11 +25,17 @@
   ],
 
   "compilerOptions": {
+    // Necessary since Docusaurus uses JSX.
+    "jsx": "preserve",
+
     "lib": [
-      "ES2023", // Needed for "Array.toReversed"
       "DOM", // Needed for "hotkey.js"
       "DOM.Iterable", // Needed for "hotkey.js"
+      "ES2023", // Needed for "Array.toReversed"
     ],
+
+    // Necessary since "./src" is the default and we type-check files in the root project directory.
+    "rootDir": ".",
   },
 
   // @template-customization-end

@@ -29,33 +29,32 @@
     ]
   },
   "dependencies": {
-    "@docusaurus/core": "3.9.2",
-    "@docusaurus/faster": "3.9.2",
-    "@docusaurus/plugin-content-docs": "3.9.2",
-    "@docusaurus/preset-classic": "3.9.2",
-    "@docusaurus/theme-mermaid": "3.9.2",
+    "@docusaurus/core": "3.10.1",
+    "@docusaurus/faster": "3.10.1",
+    "@docusaurus/plugin-content-docs": "3.10.1",
+    "@docusaurus/preset-classic": "3.10.1",
+    "@docusaurus/theme-mermaid": "3.10.1",
     "@mdx-js/react": "3.1.1",
-    "complete-common": "2.21.0",
+    "complete-common": "2.29.0",
     "prism-react-renderer": "2.4.1",
     "raw-loader": "4.0.2",
-    "react": "19.2.4",
+    "react": "19.2.7",
     "react-circular-progressbar": "2.2.0",
-    "react-dom": "19.2.4",
-    "react-zoom-pan-pinch": "3.7.0",
-    "yaml": "2.8.3",
-    "zod": "4.3.6"
+    "react-dom": "19.2.7",
+    "react-zoom-pan-pinch": "4.0.3",
+    "yaml": "2.9.0",
+    "zod": "4.4.3"
   },
   "devDependencies": {
-    "@docusaurus/tsconfig": "3.9.2",
-    "complete-cli": "1.5.19",
-    "complete-lint": "5.6.0",
-    "complete-node": "16.4.0",
-    "git-pull-run": "1.6.2",
+    "complete-cli": "1.5.31",
+    "complete-lint": "5.20.0",
+    "complete-node": "17.0.2",
+    "git-pull-run": "1.6.3",
     "glob": "13.0.6",
     "husky": "9.1.7",
-    "prettier-plugin-sh": "0.18.0",
-    "tsx": "4.21.0",
-    "typescript": "5.9.3",
-    "webpack": "5.105.4"
+    "prettier-plugin-sh": "0.18.1",
+    "tsx": "4.22.4",
+    "typescript": "6.0.3",
+    "webpack": "5.107.2"
   }
 }

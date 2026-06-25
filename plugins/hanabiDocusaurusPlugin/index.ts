@@ -22,7 +22,7 @@ export default function hanabiDocusaurusPlugin(): Plugin {
         module: {
           rules: [
             {
-              test: /\.yml$/,
+              test: /\.yml$/v,
               use: [
                 // Convert the SVG to a React component:
                 // https://react-svgr.com/
