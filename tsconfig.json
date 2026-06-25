@@ -14,7 +14,7 @@
     "./src/**/*.ts",
     "./src/**/*.tsx",
     "./static/js/*.js",
-    "sidebars.ts",
+    "./sidebars.ts",
   ],
 
   "exclude": [
@@ -25,6 +25,9 @@
   ],
 
   "compilerOptions": {
+    // This package has non-transpiled JavaScript code.
+    "allowJs": true,
+
     // Necessary since Docusaurus uses JSX.
     "jsx": "preserve",
 

@@ -79,10 +79,12 @@ function navigateToPreviousSection() {
   for (const section of [...sections].toReversed()) {
     // Return first section above current position (iterating backwards), keeping in mind the top
     // navigation bar and a small threshold.
-    if (section.getBoundingClientRect().top < 50) {
-      scrollToSection(section);
-      return;
+    if (section.getBoundingClientRect().top >= 50) {
+      continue;
     }
+
+    scrollToSection(section);
+    return;
   }
   // If no previous section found, scroll to top.
   scrollToSection(document.documentElement);
@@ -93,10 +95,12 @@ function navigateToNextSection() {
   for (const section of sections) {
     // Return first section below current position, keeping in mind the top navigation bar and a
     // small threshold.
-    if (section.getBoundingClientRect().top > 70) {
-      scrollToSection(section);
-      return;
+    if (section.getBoundingClientRect().top <= 70) {
+      continue;
     }
+
+    scrollToSection(section);
+    return;
   }
 
   // If no next section found, scroll to pagination nav at bottom.
@@ -124,7 +128,7 @@ function goToSpecificLevel() {
   // The Learning Path is also a common destination, so we provide a dedicated hotkey for this.
   const levelLowerCase = levelString.toLowerCase();
   if (levelLowerCase === "p" || levelLowerCase === "path") {
-    globalThis.location.href = "/learning-path/";
+    globalThis.location.assign("/learning-path/");
     return;
   }
 
@@ -143,7 +147,7 @@ function goToSpecificLevel() {
     return;
   }
 
-  globalThis.location.href = `/level-${level}/`;
+  globalThis.location.assign(`/level-${level}/`);
 }
 
 function isOnLandingPage() {
@@ -196,8 +200,8 @@ function clickNavButton(i) {
     return;
   }
 
-  const buttonLink = buttonDiv.children[0];
-  if (buttonLink !== undefined && buttonLink instanceof HTMLElement) {
+  const buttonLink = buttonDiv.firstElementChild;
+  if (buttonLink !== null && buttonLink instanceof HTMLElement) {
     buttonLink.click();
   }
 }
@@ -224,10 +228,10 @@ function parseIntSafe(string) {
   const trimmedString = string.trim();
 
   // If the string does not entirely consist of numbers, return undefined.
-  if (/^-?\d+$/.exec(trimmedString) === null) {
+  if (!/^-?\d+$/v.test(trimmedString)) {
     return undefined;
   }
 
-  const number = Number.parseInt(trimmedString, 10);
+  const number = Math.trunc(Number(trimmedString));
   return Number.isNaN(number) ? undefined : number;
 }

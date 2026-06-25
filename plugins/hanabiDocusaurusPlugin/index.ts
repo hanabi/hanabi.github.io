@@ -44,8 +44,8 @@ export default function hanabiDocusaurusPlugin(): Plugin {
                    * mess up the class names, so we have to use the "prefixIds" plugin:
                    * https://svgo.dev/docs/plugins/prefixIds/
                    *
-                   * Furthermore, if we specify an SVGO config, it will remove all optimizations,
-                   * so we have to first extend from the default presets.
+                   * Furthermore, if we specify an SVGO config, it will remove all optimizations, so
+                   * we have to first extend from the default presets.
                    */
                   svgoConfig: {
                     plugins: [
@@ -72,8 +72,8 @@ export default function hanabiDocusaurusPlugin(): Plugin {
 
               // Generate an SVG based on the YAML file. (This must be after "@svgr/webpack".)
               {
-                // Webpack loaders do not support TypeScript, so the plugin must be transpiled to
-                // a JavaScript file.
+                // Webpack loaders do not support TypeScript, so the plugin must be transpiled to a
+                // JavaScript file.
                 loader: path.join(
                   importMetaDirname,
                   "plugin",
