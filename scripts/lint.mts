@@ -1,3 +1,4 @@
+import { assertDefined } from "complete-common";
 import { $o, commandExists, lintCommands, readFile } from "complete-node";
 import { glob } from "glob";
 import path from "node:path";
@@ -56,7 +57,7 @@ await lintCommands(import.meta.dirname, [
 ]);
 
 async function checkUnusedYAMLFiles() {
-  const importRegex = /import .+ from "([^"]+\.yml)"/;
+  const importRegex = /import .+ from "(?<yamlPath>[^"]+\.yml)"/v;
 
   // Go through every ".mdx" file and compile a set of used YAML files.
   const mdxFilePathFragments = await glob("./docs/**/*.mdx");
@@ -74,17 +75,16 @@ async function checkUnusedYAMLFiles() {
         continue;
       }
 
-      const match = line.match(importRegex);
+      const match = importRegex.exec(line);
       if (match === null) {
         continue;
       }
 
-      const yamlImportPath = match[1];
-      if (yamlImportPath === undefined) {
-        throw new Error(
-          `Failed to parse the YAML file path from file: ${mdxFilePath}`,
-        );
-      }
+      const yamlImportPath = match.groups?.["yamlPath"];
+      assertDefined(
+        yamlImportPath,
+        `Failed to parse the YAML file path from file: ${mdxFilePath}`,
+      );
 
       // Resolve the import path relative to the importing file.
       const absoluteYamlPath = path.resolve(mdxDir, yamlImportPath);

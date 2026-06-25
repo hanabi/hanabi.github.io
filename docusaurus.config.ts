@@ -3,11 +3,9 @@ import type { Config } from "@docusaurus/types";
 
 const config: Config = {
   title: "H-Group Conventions",
-  tagline: undefined,
-  favicon: "img/favicon.ico",
-
   url: "https://hanabi.github.io",
   baseUrl: "/",
+  favicon: "img/favicon.ico",
 
   // With the default (undefined), Docusaurus emits pages as "/path/index.html" but writes
   // canonical/sitemap/og URLs without a trailing slash, so GitHub Pages 301-redirects "/path" to
@@ -18,35 +16,29 @@ const config: Config = {
   // resolve unchanged).
   trailingSlash: false,
 
-  organizationName: "hanabi",
-  projectName: "hanabi.github.io",
-
-  onBrokenAnchors: "throw",
-  onBrokenLinks: "throw",
-  onDuplicateRoutes: "throw",
-
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
   },
 
-  presets: [
-    [
-      "classic",
-      {
-        docs: {
-          routeBasePath: "/", // Serve the docs at the site's root.
-          sidebarPath: "./sidebars.ts",
-          editUrl: "https://github.com/hanabi/hanabi.github.io/edit/main/",
-        },
-        theme: {
-          customCss: "./src/css/custom.css",
-        },
-      } satisfies Preset.Options,
-    ],
-  ],
+  future: {
+    faster: true,
+    v4: true,
+  },
+
+  onBrokenAnchors: "throw",
+  onDuplicateRoutes: "throw",
+  tagline: undefined,
+  organizationName: "hanabi",
+  projectName: "hanabi.github.io",
 
   themeConfig: {
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
+
     navbar: {
       title: "H-Group Conventions",
       logo: {
@@ -91,10 +83,8 @@ const config: Config = {
       ],
     },
 
-    docs: {
-      sidebar: {
-        hideable: true,
-      },
+    colorMode: {
+      defaultMode: "dark",
     },
 
     algolia: {
@@ -103,17 +93,27 @@ const config: Config = {
       indexName: "hanabi-conventions",
       contextualSearch: false, // Enabled by default; only useful for versioned sites.
     },
-
-    colorMode: {
-      defaultMode: "dark",
-    },
   } satisfies Preset.ThemeConfig,
 
-  // -------------------------
-  // Added fields from vanilla
-  // -------------------------
-
   plugins: ["./plugins/hanabiDocusaurusPlugin/index.ts"],
+  themes: ["@docusaurus/theme-mermaid"],
+
+  presets: [
+    [
+      "classic",
+      {
+        docs: {
+          routeBasePath: "/", // Serve the docs at the site's root.
+          sidebarPath: "./sidebars.ts",
+          editUrl: "https://github.com/hanabi/hanabi.github.io/edit/main/",
+        },
+        theme: {
+          customCss: "./src/css/custom.css",
+        },
+      } satisfies Preset.Options,
+    ],
+  ],
+
   scripts: [
     // Font Awesome is used for the icons on the landing page.
     // https://fontawesome.com/kits/1932a73877/setup
@@ -125,10 +125,6 @@ const config: Config = {
     // We provide some keyboard shortcuts for easier navigation.
     "/js/hotkey.js",
   ],
-  future: {
-    faster: true,
-    v4: true,
-  },
 
   markdown: {
     hooks: {
@@ -139,7 +135,6 @@ const config: Config = {
     // https://docusaurus.io/docs/markdown-features/diagrams
     mermaid: true,
   },
-  themes: ["@docusaurus/theme-mermaid"],
 };
 
 export default config;

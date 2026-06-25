@@ -58,7 +58,6 @@ export default function MermaidWrapper(props: Props): ReactNode {
           ref={transformWrapper}
           wheel={{
             step: CONFIG.scroll_step,
-            smoothStep: CONFIG.scroll_step / 200,
           }}
         >
           <TransformComponent

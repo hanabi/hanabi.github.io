@@ -416,7 +416,7 @@ class ImageGenerator {
         width: CARD_WIDTH,
         height: CARD_HEIGHT,
       });
-      const rankStrings = [...ranks.values()];
+      const rankStrings = [...ranks];
       const firstRank = rankStrings[0];
       if (firstRank === undefined) {
         throw new Error("Failed to parse the first rank.");
@@ -436,7 +436,7 @@ class ImageGenerator {
         width: CARD_WIDTH,
         height: CARD_HEIGHT,
       });
-      const suitStrings = [...suits.values()];
+      const suitStrings = [...suits];
       const firstSuit = suitStrings[0];
       if (firstSuit === undefined) {
         throw new Error("Failed to parse the first suit.");
@@ -454,7 +454,7 @@ class ImageGenerator {
       this.drawCardPips(s, ranks, crossedOut, orange);
     } else {
       // An exact card identity was specified. (e.g. "r1")
-      const suitStrings = [...suits.values()];
+      const suitStrings = [...suits];
       const firstSuit = suitStrings[0];
       if (firstSuit === undefined) {
         throw new Error("Failed to parse the first suit.");
@@ -463,7 +463,7 @@ class ImageGenerator {
       if (suitName === undefined) {
         throw new Error("Failed to parse the first suit name.");
       }
-      const rankStrings = [...ranks.values()];
+      const rankStrings = [...ranks];
       const firstRank = rankStrings[0];
       if (firstRank === undefined) {
         throw new Error("Failed to parse the first rank.");
@@ -516,7 +516,7 @@ class ImageGenerator {
     const letters: string[] = [];
     const numbers: string[] = [];
     for (const ch of cardType) {
-      if (/^\d$/.test(ch)) {
+      if (/^\d$/v.test(ch)) {
         numbers.push(ch);
       } else {
         letters.push(ch);
@@ -540,7 +540,7 @@ class ImageGenerator {
     // Validate that the suit comes before the rank.
     // e.g. "b3" instead of "3b"
     if (letters.length > 0 && numbers.length > 0) {
-      const firstCharacter = cardType[0];
+      const firstCharacter = cardType.at(0);
       if (firstCharacter === undefined) {
         throw new Error("Failed to get the first character of a card.");
       }
@@ -596,55 +596,59 @@ class ImageGenerator {
     const orangeSet = new Set(orange?.toString());
     const rankPipWidth = CARD_WIDTH / 5;
     for (let rank = 1; rank < 6; rank++) {
-      if (pips.has(rank.toString())) {
-        const rect = svg.addSVG({
-          x: (rank - 1) * rankPipWidth,
-          y: (CARD_HEIGHT * 4) / 5,
-          width: rankPipWidth,
-          height: CARD_HEIGHT / 5,
+      if (!pips.has(rank.toString())) {
+        continue;
+      }
+
+      const rect = svg.addSVG({
+        x: (rank - 1) * rankPipWidth,
+        y: (CARD_HEIGHT * 4) / 5,
+        width: rankPipWidth,
+        height: CARD_HEIGHT / 5,
+      });
+      rect.addText(rank.toString(), {
+        x: "50%",
+        y: "50%",
+        fill: orangeSet.has(rank.toString()) ? "orange" : "white",
+        style: "filter: url(#shadow_rank)",
+        "text-anchor": "middle",
+        "dominant-baseline": "central",
+      });
+      if (crossedOutSet.has(rank.toString())) {
+        rect.addImage(`${PIECES_PATH}/x.png`, {
+          x: CARD_WIDTH / 10 - 6,
+          y: CARD_HEIGHT / 10 - 6,
+          width: 12,
+          height: 12,
+          style: "filter: url(#black_x_rank)",
         });
-        rect.addText(rank.toString(), {
-          x: "50%",
-          y: "50%",
-          fill: orangeSet.has(rank.toString()) ? "orange" : "white",
-          style: "filter: url(#shadow_rank)",
-          "text-anchor": "middle",
-          "dominant-baseline": "central",
-        });
-        if (crossedOutSet.has(rank.toString())) {
-          rect.addImage(`${PIECES_PATH}/x.png`, {
-            x: CARD_WIDTH / 10 - 6,
-            y: CARD_HEIGHT / 10 - 6,
-            width: 12,
-            height: 12,
-            style: "filter: url(#black_x_rank)",
-          });
-        }
       }
     }
 
     const angle = (2 * Math.PI) / this.suitAbbreviations.length;
     for (const [i, color] of this.suitAbbreviations.entries()) {
-      if (pips.has(color)) {
-        svg.addImage(
-          `${PIECES_PATH}/pips/${this.suitAbbreviationToWord.get(color)}.svg`,
-          {
-            x: CARD_WIDTH / 2 - 6 - 20 * Math.sin(angle * i),
-            y: CARD_HEIGHT / 2 - 6 - 20 * Math.cos(angle * i),
-            width: 12,
-            height: 12,
-            style: "filter: url(#shadow_suit)",
-          },
-        );
-        if (crossedOutSet.has(color)) {
-          svg.addImage(`${PIECES_PATH}/x.png`, {
-            x: CARD_WIDTH / 2 - 6 - 20 * Math.sin(angle * i) - 2,
-            y: CARD_HEIGHT / 2 - 6 - 20 * Math.cos(angle * i) - 2,
-            width: 16,
-            height: 16,
-            style: "filter: url(#black_x_suit)",
-          });
-        }
+      if (!pips.has(color)) {
+        continue;
+      }
+
+      svg.addImage(
+        `${PIECES_PATH}/pips/${this.suitAbbreviationToWord.get(color)}.svg`,
+        {
+          x: CARD_WIDTH / 2 - 6 - 20 * Math.sin(angle * i),
+          y: CARD_HEIGHT / 2 - 6 - 20 * Math.cos(angle * i),
+          width: 12,
+          height: 12,
+          style: "filter: url(#shadow_suit)",
+        },
+      );
+      if (crossedOutSet.has(color)) {
+        svg.addImage(`${PIECES_PATH}/x.png`, {
+          x: CARD_WIDTH / 2 - 6 - 20 * Math.sin(angle * i) - 2,
+          y: CARD_HEIGHT / 2 - 6 - 20 * Math.cos(angle * i) - 2,
+          width: 16,
+          height: 16,
+          style: "filter: url(#black_x_suit)",
+        });
       }
     }
   }
@@ -683,7 +687,7 @@ class ImageGenerator {
 
       // Draw the clue circle on the arrow.
       let color: string;
-      if (/^\d$/.test(clue)) {
+      if (/^\d$/v.test(clue)) {
         // For numeric clues, use black.
         color = "black";
       } else {
@@ -714,7 +718,7 @@ class ImageGenerator {
         "stroke-width": "2",
       });
 
-      if (/^\d$/.test(clue)) {
+      if (/^\d$/v.test(clue)) {
         const r = this.svgFile.addSVG({
           x: this.xOffset + 27,
           y: this.yOffset - 23,
@@ -959,7 +963,7 @@ class ImageGenerator {
 }
 
 export default function convertYAMLToSVG(source: string): string {
-  const yaml = YAML.parse(source) as unknown;
+  const yaml: unknown = YAML.parse(source);
   const hanabiGameState = hanabiGameStateSchema.parse(yaml);
   const image = new ImageGenerator(hanabiGameState);
   return image.getSVGText();

@@ -50,19 +50,23 @@ export class SVGNode {
   get attrsText(): string {
     // Iterator.map isn't supported yet on node, apparently; but also there's no sort() on it.
     // TODO: sort() can be removed after py and js start producing the same SVG
-    return this.attributes.entries().toArray()
-      // eslint-disable-next-line unicorn/prefer-simple-sort-comparator
-      .toSorted((a, b) => {
-        if (a[0] < b[0]) {
-          return -1;
-        }
-        if (a[0] > b[0]) {
-          return 1;
-        }
-        return 0;
-      })
-      .map(([key, value]) => ` ${key}="${value}"`)
-      .join("");
+    return (
+      this.attributes
+        .entries()
+        .toArray()
+        // eslint-disable-next-line unicorn/prefer-simple-sort-comparator
+        .toSorted((a, b) => {
+          if (a[0] < b[0]) {
+            return -1;
+          }
+          if (a[0] > b[0]) {
+            return 1;
+          }
+          return 0;
+        })
+        .map(([key, value]) => ` ${key}="${value}"`)
+        .join("")
+    );
   }
 
   text(offset = 0): string {
@@ -81,36 +85,14 @@ export class SVGNode {
 
     // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
     if (this.textContent) {
-      const escaped = this.textContent.replaceAll(
-        /["&'<>]/g,
-        (character: string) => {
-          switch (character) {
-            case "<": {
-              return "&lt;";
-            }
-
-            case ">": {
-              return "&gt;";
-            }
-
-            case "&": {
-              return "&amp;";
-            }
-
-            case "'": {
-              return "&apos;";
-            }
-
-            case '"': {
-              return "&quot;";
-            }
-
-            default: {
-              return character;
-            }
-          }
-        },
-      );
+      // The "&" must be escaped first; otherwise, the ampersands introduced by the other
+      // replacements would be escaped a second time.
+      const escaped = this.textContent
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll("'", "&apos;")
+        .replaceAll('"', "&quot;");
       result += `>${escaped}</${this.name}>\n`;
 
       return result;
