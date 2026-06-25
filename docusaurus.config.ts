@@ -9,6 +9,15 @@ const config: Config = {
   url: "https://hanabi.github.io",
   baseUrl: "/",
 
+  // With the default (undefined), Docusaurus emits pages as "/path/index.html" but writes
+  // canonical/sitemap/og URLs without a trailing slash, so GitHub Pages 301-redirects "/path" to
+  // "/path/". The Algolia crawler then follows the sitemap into those redirects (whose canonical
+  // points back at the redirecting URL) and drops every page, collapsing the index to 1 record.
+  // Setting this to false emits "/path.html", which GitHub Pages serves directly at "/path" with no
+  // redirect and no canonical mismatch, while keeping the same no-slash URLs (so relative links
+  // resolve unchanged).
+  trailingSlash: false,
+
   organizationName: "hanabi",
   projectName: "hanabi.github.io",
 
