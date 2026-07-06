@@ -16,7 +16,6 @@ players:
   - clueGiver: true
     cards:
       - type: b
-        clue: b
         middleNote: b1
       - type: x
       - type: x
