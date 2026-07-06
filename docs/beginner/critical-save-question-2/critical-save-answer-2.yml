@@ -52,6 +52,7 @@ players:
         border: false
       - type: p3
         clue: p
+        middleNote: p134
         below: sp
       - type: p5
         clue: p
