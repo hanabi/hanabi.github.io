@@ -167,6 +167,10 @@ If you're reading this far, you'll want to know some of the basic differences be
 - In the _Early Game_, everyone agrees that they **must** "extinguish" all of the available _Play Clues_ and _Save Clues_ before discarding.
 - Why do this? It prevents a certain percentage of "bottom-deck" losses by having cards on chop stick around for a little longer.
 
+### Learning Path
+
+The above should take you up to parity with the Level 2 or Level 3 H-Group conventions. Note that _Bluffs_ are **turned off** at H-Group levels 10 and below in favor of _Layered Finesses_ (below). Go join a few pick-up games with us!
+
 ## Convention Changes (Intermediate)
 
 Ok, so you've made it this far. The changes so far probably sound pretty strange, but at least most of the core stuff is still the same. Before reading further, you'll probably want to play a few games with us to get a feel for how the basics work. Beyond the basics, there are some other changes, as well as some new moves.
@@ -235,11 +239,25 @@ Ok, so you've made it this far. The changes so far probably sound pretty strange
 - By extension, it is also possible to perform a _Double Finesse_ where both promised cards are _Layered_ behind other playable cards. Essentially, this means that when playing with good players, you always have to keep in mind that a _Finesse_ could be _Layered_.
 - Why do this? It's pretty awesome and one of the most fun parts of playing Hanabi with our group.
 
+### Learning Path
+
+The above should take you approximately up to parity with Level 10 (the last level before _Bluffs_ are added). Make sure to review the convention documents, such as the _Allowable Stall Clues_ table, and try the quiz questions in the convention documentation. Then come play with us!
+
 ## Convention Changes (Advanced)
 
 These are conventions that we don't typically turn on for new players, but we do use regularly in high-level games.
 
-### The Priority Finesse - Added
+### 3 Bluffs - Added (Level 13)
+
+- On BGA, cards that are touched to initiate a _Bluff_ are typically known to be one-away from being playable. (There is also a more complex interpretation called a _Promise Bluff_ that I won't go into.)
+- In our group, we arbitrarily agree that any card used to initiate a _Bluff_ can be either a one-away card OR a 3.
+  - If a one-away card is used to initiate a _Bluff_, then we call that a normal _Bluff_.
+  - If a two-away 3 is used to initiate a _Bluff_, then we call that a _3 Bluff_.
+- Players are allowed to initiate _3 Bluffs_ with either color or number.
+- This is one of the more arbitrary and tricky conventions that we have, so it will take a few games to get used to.
+- Why do this? It allows us to get 2-for-1 clues in situations where you would otherwise have to do a 1-for-1. Furthermore, it allows us to mitigate a good percentage of "bottom-deck" losses to 3's. (And if you're really interested, you can read [the story of how 3 Bluffs were invented](3-bluffs.md)).
+
+### The Priority Finesse - Added (Level 25)
 
 - Oftentimes, a player will have two or more playable cards in their hand and have a choice as to which one to play.
 - On BGA, it is typical for people to play the cards that lead into teammate's hands. However, you are ultimately allowed to play your cards in whatever order you want, and no-one really pays too much attention.
@@ -251,16 +269,6 @@ These are conventions that we don't typically turn on for new players, but we do
   - Thus, Alice is **promising** that someone one the team has the blue 2 on their _Finesse Position_. Whoever has it should blind-play it, similar to if a _Finesse_ was performed.
 - You can also do _Priority Bluffs_. It works surprisingly well in a variety of situations.
 - Why do this? It gets cards "for free" without having to use any clues.
-
-### 3 Bluffs - Added
-
-- On BGA, cards that are touched to initiate a _Bluff_ are typically known to be one-away from being playable. (There is also a more complex interpretation called a _Promise Bluff_ that I won't go into.)
-- In our group, we arbitrarily agree that any card used to initiate a _Bluff_ can be either a one-away card OR a 3.
-  - If a one-away card is used to initiate a _Bluff_, then we call that a normal _Bluff_.
-  - If a two-away 3 is used to initiate a _Bluff_, then we call that a _3 Bluff_.
-- Players are allowed to initiate _3 Bluffs_ with either color or number.
-- This is one of the more arbitrary and tricky conventions that we have, so it will take a few games to get used to.
-- Why do this? It allows us to get 2-for-1 clues in situations where you would otherwise have to do a 1-for-1. Furthermore, it allows us to mitigate a good percentage of "bottom-deck" losses to 3's. (And if you're really interested, you can read [the story of how 3 Bluffs were invented](3-bluffs.md)).
 
 ## A Concluding Note
 
