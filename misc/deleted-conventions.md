@@ -184,6 +184,7 @@ As we evolve our convention framework, sometimes we decide to delete existing "m
   - Bob sees that Alice could have given a _5 Save_ instead of violating _Good Touch Principle_. He interprets the clue as a _Bad Touch Finesse_ and blind-plays his _Finesse Position_ card, which is a playable blue 1.
   - Cathy knows that her 1's cannot both be trash, since nothing was played on the stacks when the clue was given. She plays the newer 1 and plans to discard the older duplicate.
 - Similarly, by duplicating 2's with a number 2 clue, it was possible to turn a _2 Save_ into a _Play Clue_, promising the connecting 1 on _Finesse Position_. A _Bad Touch Bluff_ could instead get an unrelated playable card.
+- Similarly, by duplicating a card that would otherwise result in a one-blind-play _Bluff_, it was possible to turn a _Bluff_ into a _Layered Finesse_, promising the connecting card as a _Bad Touch Layered Finesse_.
 - Related moves included the _Bad Touch Double Finesse_ and _Bad Touch Double Bluff_ for 3's, and the _Bad Touch Triple Finesse_ for 4's. The deliberate duplication overrode the usual _3 Bluff_ or _4 Double Bluff_ interpretation to call for additional blind-plays.
 - These conventions were deleted in favor of the _Unknown Dupe Discharge_, which is a huge improvement because it streamlines how to think about trash cards in a more holistic way.
 
