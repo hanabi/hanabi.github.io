@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This page is written for people who have a bunch of games on [Board Game Arena](https://en.boardgamearena.com/) and may be interested in playing some games with the _H-Group_ on [Hanab Live](https://www.hanab.live). Since our group uses some advanced conventions, this page should be a quick guide to get BGA players up to speed.
+This page is written for people who have a bunch of games on [Board Game Arena](https://en.boardgamearena.com/) and may be interested in playing some games with the [_H-Group_](https://hanabi.github.io/) on [Hanab Live](https://www.hanab.live). Since our group uses some advanced conventions, this page should be a quick guide to get BGA players up to speed.
 
 (A quick note: On Hanab Live, you can play with anyone you want and you can play with any conventions you want - it is a free website. However, a good chunk of the players who play on the website are all part of the _H-Group_, so if you are playing non-H-Group games on the website, it might be hard to get a pick-up game going with random strangers.)
 
