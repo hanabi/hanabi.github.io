@@ -247,10 +247,34 @@ The above should take you approximately up to parity with Level 10 (the last lev
 
 These are conventions that we don't typically turn on for new players, but we do use regularly in high-level games.
 
+### Bluffs - Similar concept with subtle differences (Level 11)
+
+Bluffs work quite similarly in our group as they do in BGA, however, there are some important changes worth pointing out.
+
+#### "Strict" bluffs - always on
+- On BGA, bluffs are typically not "strict".
+  - This means that any card "one or more away from playable" can be used to initiate a bluff.
+  - For example, at the start of the game, it is perfectly acceptable for Alice to bluff out Bob's blue 1 by clueing red to Cathy's red 4. After the bluff is revealed, all Cathy will assume is that her card is "a useful red that is not immediately playable" (i.e. 2, 3, 4, or 5 red).
+- In our group, a _Bluff_ is *always* strict. In the situation above, Cathy would assume her card is one-away-from-playable, i.e. red 2 (and would be expected to play it without further clue once red 1 is played).
+- The consequences of that choice are that...
+  - there are fewer valid _Bluff_ targets (and maybe sometimes that will mean there is *no* valid _Bluff_ target to use to get a card in finesse position to blind play).
+  - but when a _Bluff_ can be used, it is more powerful because it carries more information.
+  - in addition, this allows us to give an even more powerful meaning to clues focusing an invalid _Bluff_ target: a _Double Bluff_. _Double Bluffs_ are introduced at Level 15 and are quite tricky, so it is recommended get familiar with the subtle differences between BGA and our group when it comes to regular _Bluffs_ first!
+
+#### Identifying that a bluff has happened
+- On BGA, the criterion to identify a bluff is very simple: does the blind-played card "lead towards" making the clued card playable. A bluff is revealed when everybody can tell that the blind played cared did not help make the clued card playable.
+  - Thus a blue card blind-playing in reaction to a red clue reveals a bluff. 
+  - Similarly, a 3 blind-playing in reaction to a 3 clue also reveals a bluff.
+  - However, a 1 blind-playing in reaction to a 4 clue does not: the interpretation taking priority is that it is a 1-2-3-4 finesse.
+- In our group, the criterion to identify a bluff is a little less intuitive: does the blind-played card "connect" to the clued card. Here "connect" is to be interpreted as "possibly made the clued card playable *right now*". A bluff is revealed when the blind-played card does not "connect" to the clued card, i.e. when everybody can tell that the clued card is still not playable (*right now*).
+  - Thus, a blue card blind-playing in reaction to a red clue reveals a bluff (just like in BGA).
+  - Similarly, a 3 blind-playing in reaction to a 3 clue also reveals a bluff (just like in BGA).
+  - *Unlike in BGA*: a 1 blind-playing in reaction to a 4 clue *also* reveals a bluff (the 4 is obviously still unplayable, so the bluff interpretation takes priority over the 1-2-3-4 finesse interpretation).
+
 ### 3 Bluffs - Added (Level 13)
 
-- On BGA, cards that are touched to initiate a _Bluff_ are typically known to be one-away from being playable. (There is also a more complex interpretation called a _Promise Bluff_ that I won't go into.)
-- In our group, we arbitrarily agree that any card used to initiate a _Bluff_ can be either a one-away card OR a 3.
+- As mentioned above, in our group "strict" bluffs are always on.
+- However, we arbitrarily agree that a card used to initiate a _Bluff_ can be either a one-away card OR a 3.
   - If a one-away card is used to initiate a _Bluff_, then we call that a normal _Bluff_.
   - If a two-away 3 is used to initiate a _Bluff_, then we call that a _3 Bluff_.
 - Players are allowed to initiate _3 Bluffs_ with either color or number.
